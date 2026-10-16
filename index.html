@@ -41,6 +41,8 @@ a:hover{color:var(--inkt)}
 .stelling{font:800 clamp(30px,4.6vw,52px)/1.05 var(--display);color:var(--inkt);margin:0 0 14px;max-width:20ch;letter-spacing:-.01em}
 .stelling em{font-style:normal;color:var(--blauw)}
 .onder{color:var(--grijs);max-width:62ch;margin:0}
+.cijfers{font:600 16px/1.5 inherit;font-family:inherit;color:var(--inkt);margin:0 0 14px;max-width:70ch}
+.cijfers b{color:var(--blauw-diep)}
 .wissel{display:inline-flex;margin:22px 0 0;border:1px solid var(--lijn);border-radius:999px;padding:3px;background:var(--papier)}
 .wissel button{border:0;background:none;font:600 14px/1 inherit;font-family:inherit;padding:9px 16px;border-radius:999px;color:var(--grijs);cursor:pointer}
 .wissel button[aria-pressed=true]{background:var(--wit);color:var(--inkt);box-shadow:0 1px 3px rgba(14,59,79,.15)}
@@ -146,6 +148,7 @@ a:hover{color:var(--inkt)}
   <header class="kop">
     <p class="eyebrow"><b>Dashboard medezeggenschap</b> <span id="bijgewerkt"></span></p>
     <h1 class="stelling" id="stelling">Medezeggenschap in het hoger onderwijs</h1>
+    <p class="cijfers" id="cijfers"></p>
     <p class="onder">Wanneer vergaderen de raden die meebeslissen over onderwijs, geld en personeel, en wie laat zien wat er op tafel ligt? ScienceGuide haalt het elke nacht op bij de instellingen zelf.</p>
     <div class="wissel" role="group" aria-label="Soort instelling">
       <button type="button" data-soort="universiteit" aria-pressed="true">Universiteiten</button>
@@ -242,6 +245,12 @@ a:hover{color:var(--inkt)}
     $('#stelling').innerHTML = beide
       ? `<em>${beide}</em> van de ${lijst.length} ${meervoud} zetten agenda én stukken online`
       : `<em>Geen</em> van de ${lijst.length} ${meervoud} zet agenda en stukken online`;
+    const data = lijst.filter(i => i.data).length, deels = lijst.filter(i => (i.agenda.length||i.stukken.length) && !(i.agenda.length&&i.stukken.length)).length;
+    const niets = lijst.length - data;
+    $('#cijfers').innerHTML = `Van <b>${data}</b> ${meervoud} staan de vergaderdata online. `
+      + (beide ? `<b>${beide}</b> daarvan publiceren ook agenda's én stukken` : 'Geen ervan publiceert agenda's én stukken')
+      + (deels ? `, <b>${deels}</b> alleen agenda's of alleen stukken` : '')
+      + `. Bij <b>${niets}</b> vonden we niets openbaars.`;
   }
   function meter(){
     $('#meter').innerHTML = gesorteerd().map(i => {
