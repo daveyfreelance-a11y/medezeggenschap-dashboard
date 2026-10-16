@@ -36,6 +36,7 @@ a:hover{color:var(--inkt)}
 /* ---------- kop: de stelling ---------- */
 .kop{padding:40px 0 28px;border-bottom:1px solid var(--lijn)}
 .kop .eyebrow{font:700 13px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--blauw-diep);margin:0 0 14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.ingebed .kop .eyebrow b{display:none}
 .kop .eyebrow span{color:var(--grijs);font-weight:500;text-transform:none;letter-spacing:0}
 .stelling{font:800 clamp(30px,4.6vw,52px)/1.05 var(--display);color:var(--inkt);margin:0 0 14px;max-width:20ch;letter-spacing:-.01em}
 .stelling em{font-style:normal;color:var(--blauw)}
@@ -59,7 +60,8 @@ a:hover{color:var(--inkt)}
 .legenda i{font-style:normal;font-family:var(--mono);font-size:12px}
 
 /* ---------- tabs ---------- */
-.tabs{display:flex;gap:4px;margin:30px 0 0;border-bottom:2px solid var(--lijn);overflow-x:auto}
+.tabs{display:flex;gap:4px;margin:30px 0 0;border-bottom:2px solid var(--lijn);overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
 .tabs a{font:700 15px/1 var(--display);color:var(--grijs);text-decoration:none;padding:13px 14px;border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap}
 .tabs a[aria-current=page]{color:var(--inkt);border-color:var(--blauw)}
 .paneel{padding-top:24px}
@@ -142,7 +144,7 @@ a:hover{color:var(--inkt)}
 <body>
 <main class="mz" id="mz">
   <header class="kop">
-    <p class="eyebrow">Dashboard medezeggenschap <span id="bijgewerkt"></span></p>
+    <p class="eyebrow"><b>Dashboard medezeggenschap</b> <span id="bijgewerkt"></span></p>
     <h1 class="stelling" id="stelling">Medezeggenschap in het hoger onderwijs</h1>
     <p class="onder">Wanneer vergaderen de raden die meebeslissen over onderwijs, geld en personeel, en wie laat zien wat er op tafel ligt? ScienceGuide haalt het elke nacht op bij de instellingen zelf.</p>
     <div class="wissel" role="group" aria-label="Soort instelling">
@@ -208,6 +210,8 @@ a:hover{color:var(--inkt)}
 <script>
 (function(){
   const D = window.MZ_DATA;
+  // Ingebed in een pagina die zelf al een titel heeft: alleen de datum tonen.
+  if (window.parent !== window) document.documentElement.classList.add('ingebed');
   if(!D){document.getElementById('lijst').innerHTML='<p class="leeg">De gegevens konden niet worden geladen.</p>';return;}
   const $ = s => document.querySelector(s);
   const e = t => String(t ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
