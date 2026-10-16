@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ScienceGuide//Medezeggenschap//NL
+X-WR-CALNAME:Medezeggenschap Universiteit Twente
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:afe8374491885a1f@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260909T084500
+DURATION:PT2H
+SUMMARY:UT UR – Externe commissievergaderingen met CvB
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:2b01aec70e2f61b9@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260930T100000
+DURATION:PT2H
+SUMMARY:UT UR – Plenaire vergadering
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:6e115b59fbf52b58@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261021T084500
+DURATION:PT2H
+SUMMARY:UT UR – Externe commissievergaderingen met CvB
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:d442caa310c00e41@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261104T100000
+DURATION:PT2H
+SUMMARY:UT UR – Plenaire vergadering
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:5cf8326a64471e4c@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261125T084500
+DURATION:PT2H
+SUMMARY:UT UR – Externe commissievergaderingen met CvB
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:9f453b41f637a64f@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261209T100000
+DURATION:PT2H
+SUMMARY:UT UR – Plenaire vergadering
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:3701252f4d8fd13f@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261216T100000
+DURATION:PT2H
+SUMMARY:UT UR – Extra plenaire vergadering
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:72b2348876e7697b@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270203T084500
+DURATION:PT2H
+SUMMARY:UT UR – Externe commissievergaderingen met CvB
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:93a8139b3a1c4482@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270217T100000
+DURATION:PT2H
+SUMMARY:UT UR – Plenaire vergadering
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:fc3620622f79ab03@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270317T084500
+DURATION:PT2H
+SUMMARY:UT UR – Externe commissievergaderingen met CvB
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:554f161cdfc6f5f2@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270331T100000
+DURATION:PT2H
+SUMMARY:UT UR – Plenaire vergadering
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:5581a9586c0589b4@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270421T084500
+DURATION:PT2H
+SUMMARY:UT UR – Externe commissievergaderingen met CvB
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:57ff2fc9ed9f3fb8@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270512T100000
+DURATION:PT2H
+SUMMARY:UT UR – Plenaire vergadering
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:18b3fb76932a8765@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270609T084500
+DURATION:PT2H
+SUMMARY:UT UR – Externe commissievergaderingen met CvB
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:69c8608e9f6e7c19@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270623T100000
+DURATION:PT2H
+SUMMARY:UT UR – Plenaire vergadering
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+BEGIN:VEVENT
+UID:9b4cfffdd46e3079@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270630T100000
+DURATION:PT2H
+SUMMARY:UT UR – Extra plenaire vergadering
+URL:https://www.utwente.nl/en/university-council/
+DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
+END:VEVENT
+END:VCALENDAR

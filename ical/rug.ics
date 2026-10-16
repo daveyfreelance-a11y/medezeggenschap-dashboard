@@ -1,0 +1,386 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ScienceGuide//Medezeggenschap//NL
+X-WR-CALNAME:Medezeggenschap Rijksuniversiteit Groningen
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:399df0f14ac3e7c7@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260625T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad 344
+LOCATION:Vergaderzaal\, Muurstraat\, gebouw 1117
+URL:https://rug.my-meeting.nl/Documenten/Agenda-Universiteitsraad-344.pdf
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026/25-juni/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:e79ea82a45d746c0@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260820T130000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Bestuur
+LOCATION:Vergaderzaal\, Muurstraat\, gebouw 1117
+URL:https://rug.my-meeting.nl/Documenten/2026-557.pdf
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026/20-augustus/13:00
+END:VEVENT
+BEGIN:VEVENT
+UID:538c1ee3f944ad72@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260827T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad 345
+LOCATION:Vergaderzaal\, Muurstraat\, gebouw 1117
+URL:https://rug.my-meeting.nl/Documenten/Agenda-Universiteitsraad-345-27-augustus-2026.pdf
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026/27-augustus/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:34e91191d1b2ac71@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260827T113000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad 346
+LOCATION:Vergaderzaal\, Muurstraat\, gebouw 1117
+URL:https://rug.my-meeting.nl/Documenten/Agenda-Universiteitsraad-346-27-augustus-2026.pdf
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026/27-augustus/11:30
+END:VEVENT
+BEGIN:VEVENT
+UID:9b35d6ce1754261d@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260924T090000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Middelen
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2026/24-september/09:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2026/24-september/09:00
+END:VEVENT
+BEGIN:VEVENT
+UID:e2720905bf3da785@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260924T120000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Bestuur
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026/24-september/12:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026/24-september/12:00
+END:VEVENT
+BEGIN:VEVENT
+UID:855d6120e8c4c861@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260924T150000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2026/24-september/15:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2026/24-september/15:00
+END:VEVENT
+BEGIN:VEVENT
+UID:d1c6bbae1e39d06e@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261008T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad 347
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Documenten/Agenda-Universiteitsraad-347-08-oktober-2026.pdf
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026/08-oktober/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:3a20c8c34bdfd2d7@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261029T090000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Middelen
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2026/29-oktober/09:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2026/29-oktober/09:00
+END:VEVENT
+BEGIN:VEVENT
+UID:902a5e3f3cdb13f6@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261029T120000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Bestuur
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026/29-oktober/12:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026/29-oktober/12:00
+END:VEVENT
+BEGIN:VEVENT
+UID:ae515e08f37e74ab@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261029T150000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2026/29-oktober/15:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2026/29-oktober/15:00
+END:VEVENT
+BEGIN:VEVENT
+UID:7ed530ffc09a99ad@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261112T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026/12-november/09:30
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026/12-november/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:759bf58e0824df39@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261126T090000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Middelen
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2026/26-november/09:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2026/26-november/09:00
+END:VEVENT
+BEGIN:VEVENT
+UID:9b25fcff7576c203@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261126T120000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Bestuur
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026/26-november/12:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026/26-november/12:00
+END:VEVENT
+BEGIN:VEVENT
+UID:4d26f45df6065efa@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261126T150000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2026/26-november/15:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2026/26-november/15:00
+END:VEVENT
+BEGIN:VEVENT
+UID:38156bd93cd787f0@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261210T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026/10-december/09:30
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026/10-december/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:dce84cf2877296ff@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270204T090000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Middelen
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2027/04-februari/09:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2027/04-februari/09:00
+END:VEVENT
+BEGIN:VEVENT
+UID:f4b0df6cac4b9e2b@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270204T120000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Bestuur
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027/04-februari/12:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027/04-februari/12:00
+END:VEVENT
+BEGIN:VEVENT
+UID:ab89efe88e7435bb@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270204T150000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2027/04-februari/15:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2027/04-februari/15:00
+END:VEVENT
+BEGIN:VEVENT
+UID:c6b57f6a40e41800@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270218T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/18-februari/09:30
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/18-februari/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:ddbbd16b591b4af3@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270304T090000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Middelen
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2027/04-maart/09:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2027/04-maart/09:00
+END:VEVENT
+BEGIN:VEVENT
+UID:e0b03abcf66bd68f@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270304T120000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Bestuur
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027/04-maart/12:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027/04-maart/12:00
+END:VEVENT
+BEGIN:VEVENT
+UID:935f997f070bc325@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270304T150000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2027/04-maart/15:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2027/04-maart/15:00
+END:VEVENT
+BEGIN:VEVENT
+UID:313327afada72f1d@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270318T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/18-maart/09:30
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/18-maart/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:dc333204b894187d@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270401T090000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Middelen
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2027/01-april/09:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2027/01-april/09:00
+END:VEVENT
+BEGIN:VEVENT
+UID:6ab808cbfe8895e2@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270401T120000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Bestuur
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027/01-april/12:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027/01-april/12:00
+END:VEVENT
+BEGIN:VEVENT
+UID:f12cc53ac9126a45@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270401T150000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2027/01-april/15:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2027/01-april/15:00
+END:VEVENT
+BEGIN:VEVENT
+UID:36715b3ed77facd7@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270415T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/15-april/09:30
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/15-april/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:faeb25dd364b55f7@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270513T090000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Middelen
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2027/13-mei/09:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2027/13-mei/09:00
+END:VEVENT
+BEGIN:VEVENT
+UID:6a26047b5ab69669@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270513T120000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Bestuur
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027/13-mei/12:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027/13-mei/12:00
+END:VEVENT
+BEGIN:VEVENT
+UID:b3149d7829f2bd7c@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270513T150000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2027/13-mei/15:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2027/13-mei/15:00
+END:VEVENT
+BEGIN:VEVENT
+UID:35fa8daabac71d31@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270527T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/27-mei/09:30
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/27-mei/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:91bd356039873032@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270610T090000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Middelen
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2027/10-juni/09:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/2027/10-juni/09:00
+END:VEVENT
+BEGIN:VEVENT
+UID:9acb916e347fcd2a@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270610T120000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Bestuur
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027/10-juni/12:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027/10-juni/12:00
+END:VEVENT
+BEGIN:VEVENT
+UID:eae9b34639bab60d@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270610T150000
+DURATION:PT2H
+SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2027/10-juni/15:00
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-Onderzoek/2027/10-juni/15:00
+END:VEVENT
+BEGIN:VEVENT
+UID:613413ec79e159c9@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20270624T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/24-juni/09:30
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/24-juni/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:4d1219d527ee72a3@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20271007T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/07-oktober/09:30
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/07-oktober/09:30
+END:VEVENT
+BEGIN:VEVENT
+UID:0d73621847c7f29d@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20271111T093000
+DURATION:PT2H
+SUMMARY:RUG UR – Universiteitsraad
+LOCATION:1121.0079 Balzaal\, Bestuursgebouw
+URL:https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/11-november/09:30
+DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027/11-november/09:30
+END:VEVENT
+END:VCALENDAR

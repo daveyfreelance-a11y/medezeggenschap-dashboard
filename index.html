@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Medezeggenschap in het hoger onderwijs – ScienceGuide</title>
+<meta name="description" content="Wanneer vergaderen de universiteitsraden en medezeggenschapsraden, en welke instellingen maken hun agenda's en stukken openbaar? Elke nacht bijgewerkt door ScienceGuide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@700;800&family=Noto+Sans+Mono:wght@500;700&family=Noto+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blauw:#24B1DF;        /* ScienceGuide-blauw: openbaar, links, accenten */
+  --blauw-diep:#127FA3;   /* blauw dat leesbaar is als tekst op wit */
+  --inkt:#0E3B4F;         /* koppen */
+  --tekst:#212529;
+  --grijs:#5E6B75;
+  --lijn:#E6ECF0;
+  --dicht:#DCE3E8;        /* niet openbaar */
+  --papier:#F5F8FA;
+  --wit:#FFFFFF;
+  --live:#E5484D;
+  --r:6px;
+  --mono:"Noto Sans Mono",ui-monospace,Consolas,monospace;
+  --display:"Noto Sans Display","Noto Sans","Droid Sans",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--wit);color:var(--tekst);font:16px/1.55 "Noto Sans","Droid Sans","Segoe UI",Roboto,Arial,sans-serif}
+a{color:var(--blauw-diep);text-underline-offset:2px}
+a:hover{color:var(--inkt)}
+:focus-visible{outline:3px solid var(--blauw);outline-offset:2px;border-radius:3px}
+.mz{max-width:1180px;margin:0 auto;padding:0 20px 64px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* ---------- kop: de stelling ---------- */
+.kop{padding:40px 0 28px;border-bottom:1px solid var(--lijn)}
+.kop .eyebrow{font:700 13px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--blauw-diep);margin:0 0 14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.kop .eyebrow span{color:var(--grijs);font-weight:500;text-transform:none;letter-spacing:0}
+.stelling{font:800 clamp(30px,4.6vw,52px)/1.05 var(--display);color:var(--inkt);margin:0 0 14px;max-width:20ch;letter-spacing:-.01em}
+.stelling em{font-style:normal;color:var(--blauw)}
+.onder{color:var(--grijs);max-width:62ch;margin:0}
+.wissel{display:inline-flex;margin:22px 0 0;border:1px solid var(--lijn);border-radius:999px;padding:3px;background:var(--papier)}
+.wissel button{border:0;background:none;font:600 14px/1 inherit;font-family:inherit;padding:9px 16px;border-radius:999px;color:var(--grijs);cursor:pointer}
+.wissel button[aria-pressed=true]{background:var(--wit);color:var(--inkt);box-shadow:0 1px 3px rgba(14,59,79,.15)}
+
+/* ---------- openheidsmeter (signatuur) ---------- */
+.meter{display:grid;grid-template-columns:repeat(auto-fill,minmax(176px,1fr));gap:10px;margin:26px 0 0}
+.instknop{display:grid;grid-template-columns:1fr auto;align-items:center;gap:6px 10px;text-align:left;border:1px solid var(--lijn);border-radius:var(--r);background:var(--wit);padding:11px 12px;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,transform .15s}
+.instknop:hover{border-color:var(--blauw);transform:translateY(-1px)}
+.instknop b{font:700 15px/1.2 var(--display);color:var(--inkt);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.instknop small{grid-column:1/-1;color:var(--grijs);font-size:12.5px;line-height:1.3}
+.blokjes{display:flex;gap:3px}
+.blok{width:16px;height:16px;border-radius:3px;background:var(--dicht)}
+.blok.aan{background:var(--blauw)}
+.blok.deels{background:linear-gradient(135deg,var(--blauw) 50%,var(--dicht) 50%)}
+.legenda{display:flex;flex-wrap:wrap;gap:6px 18px;margin:14px 0 0;color:var(--grijs);font-size:13px;align-items:center}
+.legenda .blokjes{margin-right:4px}
+.legenda i{font-style:normal;font-family:var(--mono);font-size:12px}
+
+/* ---------- tabs ---------- */
+.tabs{display:flex;gap:4px;margin:30px 0 0;border-bottom:2px solid var(--lijn);overflow-x:auto}
+.tabs a{font:700 15px/1 var(--display);color:var(--grijs);text-decoration:none;padding:13px 14px;border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap}
+.tabs a[aria-current=page]{color:var(--inkt);border-color:var(--blauw)}
+.paneel{padding-top:24px}
+
+/* ---------- agenda ---------- */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.filters select,.filters input{font:inherit;font-size:15px;border:1px solid var(--lijn);border-radius:var(--r);padding:9px 11px;background:var(--wit);color:var(--tekst);min-width:0}
+.filters input{flex:1 1 220px}
+.chip{font:600 13px/1 inherit;font-family:inherit;border:1px solid var(--lijn);background:var(--wit);border-radius:999px;padding:8px 12px;cursor:pointer;color:var(--grijs)}
+.chip[aria-pressed=true]{background:var(--inkt);border-color:var(--inkt);color:var(--wit)}
+.telling{color:var(--grijs);font-size:14px;margin:0 0 6px}
+.dag{display:grid;grid-template-columns:132px 1fr;gap:0 24px;border-top:1px solid var(--lijn);padding:18px 0}
+.dag h3{margin:0;font:700 13px/1.35 var(--mono);color:var(--inkt);text-transform:uppercase;letter-spacing:.04em;position:sticky;top:12px;align-self:start}
+.dag h3 span{display:block;font-weight:500;color:var(--grijs);text-transform:none;letter-spacing:0;margin-top:3px}
+.dag.vandaag h3{color:var(--blauw-diep)}
+.rij{display:grid;grid-template-columns:62px 1fr;gap:4px 14px;padding:10px 0}
+.rij+.rij{border-top:1px dashed var(--lijn)}
+.tijd{font:700 15px/1.4 var(--mono);color:var(--inkt)}
+.tijd.onb{color:var(--grijs);font-weight:500}
+.rij h4{margin:0;font:700 17px/1.3 var(--display);color:var(--inkt)}
+.rij h4 button{all:unset;cursor:pointer}
+.rij h4 button:hover{color:var(--blauw-diep)}
+.meta{font-size:14px;color:var(--grijs);margin:3px 0 8px}
+.label{display:inline-block;font:600 12px/1 inherit;font-family:inherit;padding:4px 7px;border-radius:4px;background:var(--papier);color:var(--inkt);border:1px solid var(--lijn);margin-right:6px;vertical-align:1px}
+.acties{display:flex;flex-wrap:wrap;gap:8px}
+.knop{display:inline-flex;align-items:center;gap:6px;font:600 14px/1 inherit;font-family:inherit;text-decoration:none;border:1px solid var(--lijn);border-radius:var(--r);padding:8px 11px;background:var(--wit);color:var(--inkt);cursor:pointer}
+.knop:hover{border-color:var(--blauw);color:var(--inkt)}
+.knop.hoofd{background:var(--blauw);border-color:var(--blauw);color:var(--wit)}
+.knop.hoofd:hover{background:var(--blauw-diep);border-color:var(--blauw-diep);color:var(--wit)}
+.knop.live{border-color:var(--live);color:var(--live)}
+.knop.live.nu{background:var(--live);color:var(--wit)}
+.knop.live.nu::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--wit);animation:puls 1.4s infinite}
+@keyframes puls{50%{opacity:.25}}
+.docs{margin:10px 0 0;padding:12px 14px;background:var(--papier);border-radius:var(--r);list-style:none}
+.docs li{padding:4px 0;font-size:14.5px;display:grid;grid-template-columns:76px 1fr;gap:10px}
+.docs li span{font:500 12px/1.9 var(--mono);color:var(--grijs);text-transform:uppercase}
+.leeg{padding:36px;text-align:center;color:var(--grijs);border:1px dashed var(--lijn);border-radius:var(--r)}
+
+/* ---------- openheid ---------- */
+.tabel{width:100%;border-collapse:collapse;font-size:15px}
+.tabel th{text-align:left;font:700 12px/1.2 var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--grijs);padding:10px 8px;border-bottom:2px solid var(--lijn);white-space:nowrap}
+.tabel td{padding:11px 8px;border-bottom:1px solid var(--lijn);vertical-align:middle}
+.tabel td:first-child button{all:unset;cursor:pointer;font:700 15px/1.3 var(--display);color:var(--inkt)}
+.tabel td:first-child button:hover{color:var(--blauw-diep)}
+.cel{display:inline-flex;align-items:center;gap:7px}
+.cel small{color:var(--grijs);font-size:12.5px}
+.ja,.nee,.half{width:14px;height:14px;border-radius:3px;display:inline-block;flex:none}
+.ja{background:var(--blauw)}.nee{background:var(--dicht)}.half{background:linear-gradient(135deg,var(--blauw) 50%,var(--dicht) 50%)}
+.scroll{overflow-x:auto}
+.noot{color:var(--grijs);font-size:13.5px;margin-top:14px;max-width:80ch}
+
+/* ---------- instelling (lade) ---------- */
+.lade{position:fixed;inset:0;display:none;z-index:50}
+.lade.open{display:block}
+.lade .waas{position:absolute;inset:0;background:rgba(14,59,79,.35)}
+.lade article{position:absolute;top:0;right:0;height:100%;width:min(560px,100%);background:var(--wit);overflow:auto;padding:28px 26px 48px;box-shadow:-8px 0 30px rgba(14,59,79,.18)}
+.lade h2{font:800 28px/1.1 var(--display);color:var(--inkt);margin:6px 0 10px}
+.lade .sluit{float:right}
+.lade section{border-top:1px solid var(--lijn);padding:16px 0}
+.lade h3{font:700 13px/1 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--grijs);margin:0 0 12px}
+.lade p.cel{display:flex;margin:6px 0}
+.mini{display:grid;grid-template-columns:96px 1fr;gap:4px 12px;font-size:14.5px;padding:6px 0;border-bottom:1px dashed var(--lijn)}
+.mini time{font:600 13px/1.6 var(--mono);color:var(--inkt)}
+
+/* ---------- over ---------- */
+.over{max-width:72ch}
+.over h3{font:800 20px/1.2 var(--display);color:var(--inkt);margin:26px 0 8px}
+.voet{margin-top:44px;padding-top:16px;border-top:1px solid var(--lijn);color:var(--grijs);font-size:13.5px;display:flex;flex-wrap:wrap;gap:8px 24px}
+
+@media (max-width:720px){
+  .dag{grid-template-columns:1fr}
+  .dag h3{position:static;margin-bottom:6px}
+  .rij{grid-template-columns:52px 1fr}
+  .docs li{grid-template-columns:1fr}
+  .meter{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="mz" id="mz">
+  <header class="kop">
+    <p class="eyebrow">Dashboard medezeggenschap <span id="bijgewerkt"></span></p>
+    <h1 class="stelling" id="stelling">Medezeggenschap in het hoger onderwijs</h1>
+    <p class="onder">Wanneer vergaderen de raden die meebeslissen over onderwijs, geld en personeel, en wie laat zien wat er op tafel ligt? ScienceGuide haalt het elke nacht op bij de instellingen zelf.</p>
+    <div class="wissel" role="group" aria-label="Soort instelling">
+      <button type="button" data-soort="universiteit" aria-pressed="true">Universiteiten</button>
+      <button type="button" data-soort="hogeschool" aria-pressed="false">Hogescholen</button>
+    </div>
+    <div class="meter" id="meter" aria-label="Openheid per instelling"></div>
+    <div class="legenda">
+      <span class="blokjes" aria-hidden="true"><span class="blok aan"></span><span class="blok aan"></span><span class="blok"></span></span>
+      <i>agenda · stukken · verslagen</i>
+      <span><span class="blok aan" style="display:inline-block;vertical-align:-3px"></span> openbaar</span>
+      <span><span class="blok deels" style="display:inline-block;vertical-align:-3px"></span> bij een deel van de raden</span>
+      <span><span class="blok" style="display:inline-block;vertical-align:-3px"></span> niet openbaar gevonden</span>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Onderdelen">
+    <a href="#agenda" data-tab="agenda">Agenda</a>
+    <a href="#openheid" data-tab="openheid">Openheid</a>
+    <a href="#over" data-tab="over">Over dit dashboard</a>
+  </nav>
+
+  <section class="paneel" id="p-agenda" aria-labelledby="t-agenda">
+    <h2 class="sr" id="t-agenda">Agenda</h2>
+    <div class="filters">
+      <label class="sr" for="f-inst">Instelling</label>
+      <select id="f-inst"><option value="">Alle instellingen</option></select>
+      <span role="group" aria-label="Soort vergadering" id="f-type"></span>
+      <label class="sr" for="f-zoek">Zoek in vergaderingen en stukken</label>
+      <input id="f-zoek" type="search" placeholder="Zoek in titels van vergaderingen en stukken, bv. begroting">
+    </div>
+    <p class="telling" id="telling"></p>
+    <div id="lijst"></div>
+    <p style="margin-top:16px"><button class="knop" id="meer" type="button" hidden>Eerdere vergaderingen tonen</button></p>
+  </section>
+
+  <section class="paneel" id="p-openheid" hidden aria-labelledby="t-open">
+    <h2 class="sr" id="t-open">Openheid per instelling</h2>
+    <div class="scroll"><table class="tabel" id="tabel"></table></div>
+    <p class="noot">Openbaar betekent: de robot van ScienceGuide zag het afgelopen jaar zulke documenten vrij online, zonder inloggen. Staat er een raad tussen haakjes, dan geldt het alleen voor die raad. Een grijs blokje betekent dat er niets openbaars is gevonden; dat kan ook betekenen dat het alleen op aanvraag of via een intranet beschikbaar is.</p>
+  </section>
+
+  <section class="paneel over" id="p-over" hidden>
+    <h3>Wat is dit?</h3>
+    <p>Universiteiten en hogescholen hebben raden waarin medewerkers en studenten meebeslissen over begrotingen, reorganisaties, onderwijsregels en benoemingen. Die raden vergaderen vaak openbaar, maar wie wil weten wanneer en waarover, moet tientallen websites aflopen. Dit dashboard zet het op één plek.</p>
+    <h3>Hoe werkt het?</h3>
+    <p>Elke nacht leest een programma van ScienceGuide de openbare vergadersites en -pagina's van de instellingen. Het noteert datum, tijd, plaats en de links naar agenda's en stukken. Documenten worden niet gekopieerd: elke link gaat naar de bron. Wat het programma niet zeker weet, staat er als 'onbekend' en wordt niet ingevuld.</p>
+    <h3>Wat betekent 'openheid'?</h3>
+    <p>Per instelling kijken we of agenda's, onderliggende stukken en verslagen het afgelopen jaar vrij online stonden. Bij livestreams kijken we alleen naar wat de raad zelf op zijn pagina vermeldt.</p>
+    <h3>Klopt er iets niet?</h3>
+    <p>Mist er een vergadering, is een datum verkeerd of publiceert jouw raad wel stukken die hier ontbreken? Laat het de redactie van ScienceGuide weten.</p>
+  </section>
+
+  <footer class="voet"><span id="voet-bijgewerkt"></span><span>Bron: openbare websites van de instellingen</span><span><a href="ical/alles.ics">Alle vergaderingen in je agenda (iCal)</a></span></footer>
+</main>
+
+<div class="lade" id="lade" aria-hidden="true">
+  <div class="waas" data-sluit></div>
+  <article role="dialog" aria-modal="true" aria-labelledby="lade-titel" tabindex="-1" id="lade-inhoud"></article>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  const D = window.MZ_DATA;
+  if(!D){document.getElementById('lijst').innerHTML='<p class="leeg">De gegevens konden niet worden geladen.</p>';return;}
+  const $ = s => document.querySelector(s);
+  const e = t => String(t ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const INST = Object.fromEntries(D.instellingen.map(i => [i.id, i]));
+  const SOORT = {plenair:'Plenair', 'cvb-overleg':'Overleg met bestuur', commissie:'Commissie', intern:'Intern', rvt:'Met raad van toezicht', onbekend:'Soort onbekend'};
+  const DAGEN = ['zondag','maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag'];
+  const MND = ['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'];
+  const vandaag = new Date(); const iso = d => d.toISOString().slice(0,10);
+  const vandaagIso = new Date(vandaag.getTime() - vandaag.getTimezoneOffset()*6e4).toISOString().slice(0,10);
+  let soort = 'universiteit', filterType = '', toonVerleden = false;
+
+  // --- bijgewerkt ---
+  const bw = new Date(D.bijgewerkt);
+  const bwTekst = 'Bijgewerkt ' + bw.toLocaleString('nl-NL',{day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'});
+  $('#bijgewerkt').textContent = '· ' + bwTekst; $('#voet-bijgewerkt').textContent = bwTekst;
+
+  // --- openheid ---
+  const stand = (raden, i) => !raden.length ? 'nee' : (i.raden.length > 1 && raden.length < i.raden.length ? 'half' : 'ja');
+  const blokKlasse = {ja:'aan', half:'deels', nee:''};
+  const score = i => ['agenda','stukken','verslagen'].reduce((s,k) => s + (i[k].length ? 1 : 0), 0);
+  const gesorteerd = () => D.instellingen.filter(i => i.soort === soort)
+      .sort((a,b) => (b.agenda.length&&b.stukken.length) - (a.agenda.length&&a.stukken.length) || score(b)-score(a) || b.data-a.data || a.naam.localeCompare(b.naam,'nl'));
+
+  function stelling(){
+    const lijst = D.instellingen.filter(i => i.soort === soort);
+    const beide = lijst.filter(i => i.agenda.length && i.stukken.length).length;
+    const meervoud = soort === 'universiteit' ? 'universiteiten' : 'hogescholen';
+    $('#stelling').innerHTML = beide
+      ? `<em>${beide}</em> van de ${lijst.length} ${meervoud} zetten agenda én stukken online`
+      : `<em>Geen</em> van de ${lijst.length} ${meervoud} zet agenda en stukken online`;
+  }
+  function meter(){
+    $('#meter').innerHTML = gesorteerd().map(i => {
+      const b = ['agenda','stukken','verslagen'].map(k => `<span class="blok ${blokKlasse[stand(i[k],i)]}"></span>`).join('');
+      const sub = i.agenda.length||i.stukken.length ? (i.agenda.length&&i.stukken.length ? 'Agenda en stukken openbaar' : i.agenda.length ? 'Alleen agenda\'s' : 'Alleen stukken')
+                : i.data ? 'Alleen vergaderdata' : 'Niets openbaar gevonden';
+      return `<button type="button" class="instknop" data-inst="${e(i.id)}" aria-label="${e(i.naam)}: ${sub}"><b>${e(kort(i))}</b><span class="blokjes" aria-hidden="true">${b}</span><small>${sub}</small></button>`;
+    }).join('');
+  }
+  const KORT = {EUR:'Erasmus',UvA:'UvA',Leiden:'Leiden',VU:'VU',UM:'Maastricht','TU Delft':'TU Delft',UT:'Twente',RUG:'Groningen',RU:'Radboud','TU/e':'TU Eindhoven',TiU:'Tilburg',WUR:'Wageningen',UU:'Utrecht'};
+  const kort = i => KORT[i.id] || i.naam.replace(' University of Applied Sciences','').replace(' University of the Arts','').replace(' Hogeschool','').replace('Hogeschool ','');
+
+  function tabel(){
+    const cel = (raden, i) => { const s = stand(raden,i);
+      return `<span class="cel"><span class="${s}" aria-hidden="true"></span>${s==='nee'?'<span class="sr">niet openbaar</span>':s==='ja'?'<span class="sr">openbaar</span>':`<small>${e(raden.join(', '))}</small>`}</span>`; };
+    const stream = l => l.status==='ja' ? `<a href="${e(l.url)}">Livestream</a>` : l.status==='op verzoek' ? (l.url?`<a href="${e(l.url)}">Op aanvraag</a>`:'Op aanvraag') : `<small style="color:var(--grijs)">${l.status==='niet vermeld'?'Niet vermeld':'Onbekend'}</small>`;
+    $('#tabel').innerHTML = `<thead><tr><th>Instelling</th><th>Agenda's</th><th>Stukken</th><th>Verslagen</th><th>Vergaderdata</th><th>Livestream</th></tr></thead><tbody>` +
+      gesorteerd().map(i => `<tr><td><button type="button" data-inst="${e(i.id)}">${e(i.naam)}</button></td><td>${cel(i.agenda,i)}</td><td>${cel(i.stukken,i)}</td><td>${cel(i.verslagen,i)}</td><td>${i.data?'<span class="cel"><span class="ja"></span><span class="sr">ja</span></span>':'<span class="cel"><span class="nee"></span><span class="sr">nee</span></span>'}</td><td>${stream(i.livestream)}</td></tr>`).join('') + '</tbody>';
+  }
+
+  // --- agenda ---
+  const isLive = v => { if(v.datum!==vandaagIso||!v.tijd) return false; const [h,m]=v.tijd.split(':').map(Number); const s=new Date(); s.setHours(h,m,0,0); const n=new Date(); return n>=s && n-s < 3*3600e3; };
+  function streamKnop(v){ const i=INST[v.inst]; if(!i||v.type==='commissie') return '';
+    const l=i.livestream; if(i.id==='VU'&&v.raad!=='OR') return '';
+    if(l.status==='ja'&&l.url) return `<a class="knop live ${isLive(v)?'nu':''}" href="${e(l.url)}">${isLive(v)?'Nu live':'Livestream'}</a>`;
+    if(l.status==='op verzoek'&&l.url) return `<a class="knop" href="${e(l.url)}">Meekijken op aanvraag</a>`; return ''; }
+  function rij(v){
+    const i = INST[v.inst]; const docs = v.docs||[];
+    const andere = docs.filter(d => d.u !== v.agenda);
+    return `<div class="rij"><div class="tijd ${v.tijd?'':'onb'}">${v.tijd||'tijd ?'}</div><div>
+      <h4><button type="button" data-inst="${e(v.inst)}">${e(kort(i))}</button> · ${e(v.titel.replace(/^\S+ \S+ – /,''))}</h4>
+      <div class="meta"><span class="label">${e(SOORT[v.type]||v.type)}</span>${e(v.raad)}${v.locatie?' · '+e(v.locatie):''}</div>
+      <div class="acties">${v.agenda?`<a class="knop hoofd" href="${e(v.agenda)}">Agenda</a>`:''}${andere.length?`<button class="knop" type="button" data-docs="${e(v.id)}" aria-expanded="false">${andere.length} stuk${andere.length>1?'ken':''}</button>`:''}<a class="knop" href="${e(v.bron)}">Bron</a>${streamKnop(v)}</div>
+      ${andere.length?`<ul class="docs" id="d-${e(v.id)}" hidden>${andere.map(d=>`<li><span>${e(d.s)}</span><a href="${e(d.u)}">${e(d.t)}</a></li>`).join('')}</ul>`:''}
+    </div></div>`;
+  }
+  function agenda(){
+    const inst = $('#f-inst').value, q = $('#f-zoek').value.trim().toLowerCase();
+    const namen = new Set(D.instellingen.filter(i=>i.soort===soort).map(i=>i.id));
+    let v = D.vergaderingen.filter(v => namen.has(v.inst) && (!inst||v.inst===inst) && (!filterType||v.type===filterType)
+        && (!q || (v.titel+' '+INST[v.inst].naam+' '+(v.docs||[]).map(d=>d.t).join(' ')).toLowerCase().includes(q)));
+    const komend = v.filter(x => x.datum >= vandaagIso), verleden = v.filter(x => x.datum < vandaagIso).reverse();
+    const toon = toonVerleden ? verleden : komend;
+    $('#meer').hidden = false; $('#meer').textContent = toonVerleden ? 'Komende vergaderingen tonen' : `Eerdere vergaderingen tonen (${verleden.length})`;
+    $('#telling').textContent = toonVerleden ? `${verleden.length} eerdere vergaderingen` : `${komend.length} komende vergaderingen` + (q?` met “${q}”`:'');
+    if(!toon.length){ $('#lijst').innerHTML = `<p class="leeg">${soort==='hogeschool'?'Er zijn nog geen hogescholen die hun vergaderingen openbaar maken.':'Geen vergaderingen gevonden. Probeer een andere instelling of zoekterm.'}</p>`; return; }
+    const perDag = {}; toon.forEach(x => (perDag[x.datum] ||= []).push(x));
+    $('#lijst').innerHTML = Object.entries(perDag).slice(0, 60).map(([d, xs]) => {
+      const dt = new Date(d+'T12:00:00'); const isV = d===vandaagIso;
+      const morgen = iso(new Date(new Date(vandaagIso+'T12:00:00').getTime()+864e5))===d;
+      return `<div class="dag ${isV?'vandaag':''}"><h3>${isV?'Vandaag':morgen?'Morgen':DAGEN[dt.getDay()]}<span>${dt.getDate()} ${MND[dt.getMonth()]} ${dt.getFullYear()}</span></h3><div>${xs.map(rij).join('')}</div></div>`;
+    }).join('');
+  }
+  function filters(){
+    const opts = D.instellingen.filter(i=>i.soort===soort && i.data).sort((a,b)=>a.naam.localeCompare(b.naam,'nl'));
+    $('#f-inst').innerHTML = '<option value="">Alle instellingen</option>' + opts.map(i=>`<option value="${e(i.id)}">${e(i.naam)}</option>`).join('');
+    $('#f-type').innerHTML = [['','Alles'],['plenair','Plenair'],['cvb-overleg','Met bestuur'],['commissie','Commissies']]
+      .map(([k,t]) => `<button type="button" class="chip" data-type="${k}" aria-pressed="${filterType===k}">${t}</button>`).join(' ');
+  }
+
+  // --- instelling (lade) ---
+  function lade(id){
+    const i = INST[id]; if(!i) return;
+    const eigen = D.vergaderingen.filter(v => v.inst===id);
+    const komend = eigen.filter(v=>v.datum>=vandaagIso).slice(0,12), recent = eigen.filter(v=>v.datum<vandaagIso).slice(-6).reverse();
+    const mini = v => `<div class="mini"><time datetime="${v.datum}">${v.datum.split('-').reverse().join('-')}${v.tijd?' '+v.tijd:''}</time><div>${e(v.titel.replace(/^\S+ \S+ – /,''))} <span style="color:var(--grijs)">(${e(SOORT[v.type]||v.type)})</span>${v.agenda?` · <a href="${e(v.agenda)}">agenda</a>`:''} · <a href="${e(v.bron)}">bron</a></div></div>`;
+    const regel = (k, t) => `<p class="cel"><span class="${stand(i[k],i)}"></span>${t}${i[k].length&&stand(i[k],i)==='half'?` <small>(alleen ${e(i[k].join(', '))})</small>`:''}</p>`;
+    const contact = Object.entries(i.contact);
+    $('#lade-inhoud').innerHTML = `<button class="knop sluit" type="button" data-sluit>Sluiten</button>
+      <p class="eyebrow" style="font:700 12px/1 var(--mono);text-transform:uppercase;color:var(--blauw-diep);margin:0">${i.soort}</p>
+      <h2 id="lade-titel">${e(i.naam)}</h2><p style="color:var(--grijs);margin:0 0 6px">${e(i.uitleg)}</p>
+      <section><h3>Wat is openbaar</h3>${regel('agenda','Agenda\'s')}${regel('stukken','Onderliggende stukken')}${regel('verslagen','Verslagen')}
+        <p class="cel"><span class="${i.data?'ja':'nee'}"></span>Vergaderdata</p>
+        <p style="margin:6px 0 0">Livestream: ${i.livestream.status==='ja'?`<a href="${e(i.livestream.url)}">ja, bekijk de stream</a>`:i.livestream.status==='op verzoek'?(i.livestream.url?`<a href="${e(i.livestream.url)}">op aanvraag</a>`:'op aanvraag'):i.livestream.status==='niet vermeld'?'niet vermeld door de raad':'onbekend'}</p></section>
+      ${komend.length?`<section><h3>Komende vergaderingen</h3>${komend.map(mini).join('')}<p style="margin:12px 0 0"><a class="knop" href="ical/${e(i.slug)}.ics">Zet in je agenda (iCal)</a></p></section>`:''}
+      ${recent.length?`<section><h3>Recent</h3>${recent.map(mini).join('')}</section>`:''}
+      ${contact.length?`<section><h3>Contact</h3>${contact.map(([r,a])=>`<p style="margin:4px 0">${e(r)}: <a href="mailto:${e(a)}">${e(a)}</a></p>`).join('')}</section>`:''}`;
+    $('#lade').classList.add('open'); $('#lade').setAttribute('aria-hidden','false'); $('#lade-inhoud').focus();
+    history.replaceState(null,'','#instelling/'+i.slug);
+  }
+  function sluit(){ $('#lade').classList.remove('open'); $('#lade').setAttribute('aria-hidden','true'); if(location.hash.startsWith('#instelling/')) history.replaceState(null,'','#agenda'); }
+
+  // --- tabs en routes ---
+  function tab(naam){
+    ['agenda','openheid','over'].forEach(t => { $('#p-'+t).hidden = t!==naam; document.querySelector(`[data-tab=${t}]`).setAttribute('aria-current', t===naam?'page':'false'); });
+  }
+  function route(){
+    const h = location.hash.slice(1);
+    if(h.startsWith('instelling/')){ const i = D.instellingen.find(x=>x.slug===h.split('/')[1]); tab('agenda'); if(i) lade(i.id); return; }
+    tab(['openheid','over'].includes(h)?h:'agenda');
+  }
+  function alles(){ stelling(); meter(); tabel(); filters(); agenda(); }
+
+  document.addEventListener('click', ev => {
+    const t = ev.target.closest('button,[data-sluit]'); if(!t) return;
+    if(t.dataset.soort){ soort = t.dataset.soort; document.querySelectorAll('[data-soort]').forEach(b=>b.setAttribute('aria-pressed', b===t)); $('#f-inst').value=''; alles(); }
+    else if(t.dataset.inst) lade(t.dataset.inst);
+    else if(t.hasAttribute('data-sluit')) sluit();
+    else if('type' in t.dataset){ filterType = t.dataset.type; filters(); agenda(); }
+    else if(t.dataset.docs){ const l=document.getElementById('d-'+t.dataset.docs); l.hidden=!l.hidden; t.setAttribute('aria-expanded', !l.hidden); }
+    else if(t.id==='meer'){ toonVerleden=!toonVerleden; agenda(); }
+  });
+  document.addEventListener('keydown', ev => { if(ev.key==='Escape') sluit(); });
+  $('#f-inst').addEventListener('change', agenda);
+  $('#f-zoek').addEventListener('input', agenda);
+  window.addEventListener('hashchange', route);
+  alles(); route();
+
+  // Ingebed in WordPress (iframe): externe links in een nieuw tabblad, en de
+  // hoogte doorgeven aan de pagina eromheen zodat er geen dubbele scrollbalk is.
+  document.addEventListener('click', ev => {
+    const a = ev.target.closest('a[href^="http"]');
+    if (a) { a.target = '_blank'; a.rel = 'noopener'; }
+  }, true);
+  if (window.parent !== window) {
+    let laatste = 0;
+    const meld = () => { const h = document.documentElement.scrollHeight;
+      if (h !== laatste) { laatste = h; window.parent.postMessage({mzHoogte: h}, '*'); } };
+    new ResizeObserver(meld).observe(document.body); setInterval(meld, 1000); meld();
+  }
+})();
+</script>
+</body>
+</html>

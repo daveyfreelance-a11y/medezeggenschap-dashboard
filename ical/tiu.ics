@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ScienceGuide//Medezeggenschap//NL
+X-WR-CALNAME:Medezeggenschap Tilburg University
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:49bb6841efd3dccd@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260625T093000
+DURATION:PT2H
+SUMMARY:TiU UR – UR OOI
+LOCATION:TEAMS
+URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/ce13c0a4-bad5-4518-ab66-0f7a7dd2bbe8?documentId=687913cd-cee2-4bcc-9ae6-0e026c7e9c7b&agendaItemId=39d8cffa-d3c1-41f6-b6c0-5e2741334c42
+DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/ce13c0a4-bad5-4518-ab66-0f7a7dd2bbe8
+END:VEVENT
+BEGIN:VEVENT
+UID:3260a56bc830cf98@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260625T120000
+DURATION:PT2H
+SUMMARY:TiU UR – UR CFI
+LOCATION:TEAMS
+URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/4d379518-a0ea-4729-b697-f65b6c65b333?documentId=0eb3de00-f4ef-45e6-90b6-e5673e8f98b8&agendaItemId=51b76174-0bb8-447d-ad15-f8a73ac856ca
+DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/4d379518-a0ea-4729-b697-f65b6c65b333
+END:VEVENT
+BEGIN:VEVENT
+UID:04cc294b26ede11c@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260625T150000
+DURATION:PT2H
+SUMMARY:TiU UR – UR DB Commissievervangend
+LOCATION:TEAMS
+URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/4624a23b-6c18-4055-8db8-022bf68d89a2?documentId=e29014cc-3a9f-4fb3-b005-9bef386620ef&agendaItemId=e56ed8d8-3b4e-4421-bcd3-7feb126a1e3f
+DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/4624a23b-6c18-4055-8db8-022bf68d89a2
+END:VEVENT
+BEGIN:VEVENT
+UID:c0bb7efe99e81620@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260702T100000
+DURATION:PT2H
+SUMMARY:TiU UR – Universiteitsraad
+LOCATION:C 186
+URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/7706aada-d196-4c0d-87ed-c33711fcfeb6?documentId=b03a7b0c-ac2d-4e94-bf0e-5fcc0bd21709&agendaItemId=acb41a82-3b30-4e40-b3de-a8f5dc74c2b0
+DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/7706aada-d196-4c0d-87ed-c33711fcfeb6
+END:VEVENT
+BEGIN:VEVENT
+UID:43aac71859be76e4@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260917T103000
+DURATION:PT2H
+SUMMARY:TiU UR – UR OOI
+LOCATION:C 187
+URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/b8f63aa0-1dc6-4b3d-ba4a-5b45e72f63d9?documentId=c6924187-7bc1-4109-a614-9d58226fabbe&agendaItemId=82ba2ecf-7619-4be5-be76-061f6c2d600d
+DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/b8f63aa0-1dc6-4b3d-ba4a-5b45e72f63d9
+END:VEVENT
+BEGIN:VEVENT
+UID:33120cd9a0c75378@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260917T120000
+DURATION:PT2H
+SUMMARY:TiU UR – UR CFI
+LOCATION:C187
+URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/1acd7831-8d03-4573-b52f-94f8ce2dc5e1?documentId=ea6195b4-5be4-4184-9697-1be60a77ba2d&agendaItemId=321836b1-e17f-450b-8614-84f1ddd791fa
+DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/1acd7831-8d03-4573-b52f-94f8ce2dc5e1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f72225cefc6ab86@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260917T140000
+DURATION:PT2H
+SUMMARY:TiU UR – UR DB Commissievervangend
+LOCATION:C 187
+URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/567e197b-7830-474d-a0ce-d6392b5e75e9?documentId=57bd2558-783b-4e54-86f7-6adf9a9e43f8&agendaItemId=faf34cb5-46d0-4548-b1d4-ad4bb961d095
+DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/567e197b-7830-474d-a0ce-d6392b5e75e9
+END:VEVENT
+BEGIN:VEVENT
+UID:3d09d3560c3184e3@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20260924T103000
+DURATION:PT2H
+SUMMARY:TiU UR – Universiteitsraad
+LOCATION:C 186
+URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/0e67c9cc-5cde-4bba-9b34-71e8fe4872d1?documentId=748e09d4-5877-4766-bc25-c69308e16928&agendaItemId=de3282e9-29f1-4bac-b931-37d8f809dceb
+DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/0e67c9cc-5cde-4bba-9b34-71e8fe4872d1
+END:VEVENT
+BEGIN:VEVENT
+UID:5859877aa3171f9d@medezeggenschap.scienceguide.nl
+DTSTAMP:20261016T121930Z
+DTSTART;TZID=Europe/Amsterdam:20261105T100000
+DURATION:PT2H
+SUMMARY:TiU UR – Universiteitsraad
+LOCATION:C 186
+URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/2cf66edc-0b4d-44cf-9ca1-65cc9cb7440e
+DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/2cf66edc-0b4d-44cf-9ca1-65cc9cb7440e
+END:VEVENT
+END:VCALENDAR
