@@ -248,7 +248,7 @@ a:hover{color:var(--inkt)}
     const data = lijst.filter(i => i.data).length, deels = lijst.filter(i => (i.agenda.length||i.stukken.length) && !(i.agenda.length&&i.stukken.length)).length;
     const niets = lijst.length - data;
     $('#cijfers').innerHTML = `Van <b>${data}</b> ${meervoud} staan de vergaderdata online. `
-      + (beide ? `<b>${beide}</b> daarvan publiceren ook agenda's én stukken` : 'Geen ervan publiceert agenda's én stukken')
+      + (beide ? `<b>${beide}</b> daarvan publiceren ook agenda's én stukken` : "Geen ervan publiceert agenda's én stukken")
       + (deels ? `, <b>${deels}</b> alleen agenda's of alleen stukken` : '')
       + `. Bij <b>${niets}</b> vonden we niets openbaars.`;
   }
