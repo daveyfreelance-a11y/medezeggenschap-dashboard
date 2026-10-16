@@ -274,7 +274,7 @@ a:hover{color:var(--inkt)}
 
   // --- agenda ---
   const isLive = v => { if(v.datum!==vandaagIso||!v.tijd) return false; const [h,m]=v.tijd.split(':').map(Number); const s=new Date(); s.setHours(h,m,0,0); const n=new Date(); return n>=s && n-s < 3*3600e3; };
-  function streamKnop(v){ const i=INST[v.inst]; if(!i||v.type==='commissie') return '';
+  function streamKnop(v){ const i=INST[v.inst]; if(!i||(v.type==='commissie'&&i.id!=='UU')) return '';
     const l=i.livestream; if(i.id==='VU'&&v.raad!=='OR') return '';
     if(l.status==='ja'&&l.url) return `<a class="knop live ${isLive(v)?'nu':''}" href="${e(l.url)}">${isLive(v)?'Nu live':'Livestream'}</a>`;
     if(l.status==='op verzoek'&&l.url) return `<a class="knop" href="${e(l.url)}">Meekijken op aanvraag</a>`; return ''; }
