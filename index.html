@@ -247,6 +247,7 @@ a:hover{color:var(--inkt)}
       : `<em>Geen</em> van de ${lijst.length} ${meervoud} zet agenda en stukken online`;
     const data = lijst.filter(i => i.data).length, deels = lijst.filter(i => (i.agenda.length||i.stukken.length) && !(i.agenda.length&&i.stukken.length)).length;
     const niets = lijst.length - data;
+    if (!data) { $('#cijfers').innerHTML = `Van geen enkele van de <b>${lijst.length}</b> ${meervoud} vonden we vergaderdata, agenda's of stukken online.`; return; }
     $('#cijfers').innerHTML = `Van <b>${data}</b> ${meervoud} staan de vergaderdata online. `
       + (beide ? `<b>${beide}</b> daarvan publiceren ook agenda's én stukken` : "Geen ervan publiceert agenda's én stukken")
       + (deels ? `, <b>${deels}</b> alleen agenda's of alleen stukken` : '')
