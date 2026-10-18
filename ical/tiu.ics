@@ -5,7 +5,7 @@ X-WR-CALNAME:Medezeggenschap Tilburg University
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:49bb6841efd3dccd@medezeggenschap.scienceguide.nl
-DTSTAMP:20261017T024856Z
+DTSTAMP:20261018T024718Z
 DTSTART;TZID=Europe/Amsterdam:20260625T093000
 DURATION:PT2H
 SUMMARY:TiU UR – UR OOI
@@ -15,7 +15,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:3260a56bc830cf98@medezeggenschap.scienceguide.nl
-DTSTAMP:20261017T024856Z
+DTSTAMP:20261018T024718Z
 DTSTART;TZID=Europe/Amsterdam:20260625T120000
 DURATION:PT2H
 SUMMARY:TiU UR – UR CFI
@@ -25,7 +25,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:04cc294b26ede11c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261017T024856Z
+DTSTAMP:20261018T024718Z
 DTSTART;TZID=Europe/Amsterdam:20260625T150000
 DURATION:PT2H
 SUMMARY:TiU UR – UR DB Commissievervangend
@@ -35,7 +35,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:c0bb7efe99e81620@medezeggenschap.scienceguide.nl
-DTSTAMP:20261017T024856Z
+DTSTAMP:20261018T024718Z
 DTSTART;TZID=Europe/Amsterdam:20260702T100000
 DURATION:PT2H
 SUMMARY:TiU UR – Universiteitsraad
@@ -45,7 +45,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:43aac71859be76e4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261017T024856Z
+DTSTAMP:20261018T024718Z
 DTSTART;TZID=Europe/Amsterdam:20260917T103000
 DURATION:PT2H
 SUMMARY:TiU UR – UR OOI
@@ -55,7 +55,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:33120cd9a0c75378@medezeggenschap.scienceguide.nl
-DTSTAMP:20261017T024856Z
+DTSTAMP:20261018T024718Z
 DTSTART;TZID=Europe/Amsterdam:20260917T120000
 DURATION:PT2H
 SUMMARY:TiU UR – UR CFI
@@ -65,7 +65,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:8f72225cefc6ab86@medezeggenschap.scienceguide.nl
-DTSTAMP:20261017T024856Z
+DTSTAMP:20261018T024718Z
 DTSTART;TZID=Europe/Amsterdam:20260917T140000
 DURATION:PT2H
 SUMMARY:TiU UR – UR DB Commissievervangend
@@ -75,7 +75,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:3d09d3560c3184e3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261017T024856Z
+DTSTAMP:20261018T024718Z
 DTSTART;TZID=Europe/Amsterdam:20260924T103000
 DURATION:PT2H
 SUMMARY:TiU UR – Universiteitsraad
@@ -85,7 +85,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:5859877aa3171f9d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261017T024856Z
+DTSTAMP:20261018T024718Z
 DTSTART;TZID=Europe/Amsterdam:20261105T100000
 DURATION:PT2H
 SUMMARY:TiU UR – Universiteitsraad
