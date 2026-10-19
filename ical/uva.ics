@@ -5,7 +5,7 @@ X-WR-CALNAME:Medezeggenschap Universiteit van Amsterdam
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:e7afdf1d85c0d03c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;VALUE=DATE:20260626
 SUMMARY:UvA COR – IV
 URL:https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/centrale-ondernemingsraad/schemas-en-agendas/agenda-iv-20260626.pdf
@@ -13,7 +13,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:0b8c3aa2fe246a71@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;VALUE=DATE:20260626
 SUMMARY:UvA GV – GOV 70
 URL:https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/centrale-ondernemingsraad/schemas-en-agendas/1.-agenda-gov70-26-juni-2026.pdf
@@ -21,7 +21,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:fc236202e35ea2fb@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;VALUE=DATE:20260703
 SUMMARY:UvA COR – IV
 URL:https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/centrale-ondernemingsraad/schemas-en-agendas/agenda-iv-20260703.pdf
@@ -29,7 +29,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:d59226c04072f54b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;VALUE=DATE:20260703
 SUMMARY:UvA COR – OV 239
 URL:https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/centrale-ondernemingsraad/schemas-en-agendas/agenda-ov-239-2026-07-03.pdf
@@ -37,7 +37,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:d0a8d1405c99723e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;VALUE=DATE:20260818
 SUMMARY:UvA CSR – Plenaire vergadering CSR
 URL:https://studentenraad.nl/csruva/
@@ -45,7 +45,7 @@ DESCRIPTION:Bron: https://studentenraad.nl/csruva/
 END:VEVENT
 BEGIN:VEVENT
 UID:83d649ede555031a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;VALUE=DATE:20260826
 SUMMARY:UvA CSR – Plenaire vergadering CSR
 URL:https://studentenraad.nl/csruva/
@@ -53,7 +53,7 @@ DESCRIPTION:Bron: https://studentenraad.nl/csruva/
 END:VEVENT
 BEGIN:VEVENT
 UID:4ee1835bd26c3d53@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20260828T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -63,7 +63,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:09dc75a2269e3293@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;VALUE=DATE:20260903
 SUMMARY:UvA CSR – Plenaire vergadering CSR
 URL:https://studentenraad.nl/csruva/
@@ -71,7 +71,7 @@ DESCRIPTION:Bron: https://studentenraad.nl/csruva/
 END:VEVENT
 BEGIN:VEVENT
 UID:fb8a8b5c49eee06a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20260904T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -81,7 +81,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:c6e3335d3083c03f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20260904T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 169
@@ -91,7 +91,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:8d703f9be4fc9479@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;VALUE=DATE:20260907
 SUMMARY:UvA CSR – Plenaire vergadering CSR
 URL:https://studentenraad.nl/csruva/
@@ -99,7 +99,7 @@ DESCRIPTION:Bron: https://studentenraad.nl/csruva/
 END:VEVENT
 BEGIN:VEVENT
 UID:65d058b4f6130e3f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20260911T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 240 (Art.24)
@@ -109,7 +109,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:c0742eb22fe2afa4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20260918T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -119,7 +119,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:80d6890256dd69bc@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261002T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -129,7 +129,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:27cb9c552ffd682d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261016T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -139,7 +139,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:41f55529aced3f87@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261016T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 170
@@ -149,7 +149,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:7c4f2ea5bad8750d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261030T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 241
@@ -159,7 +159,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:776913e02e5b4d63@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261106T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -169,7 +169,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:4d9871d9fe80dadc@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261106T130000
 DURATION:PT2H
 SUMMARY:UvA GV – GOV 71 (Begroting)
@@ -179,7 +179,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:f7aa1718bd2ab6f2@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;VALUE=DATE:20261113
 SUMMARY:UvA COR – Overleg COR-RvT
 LOCATION:MH 0.21
@@ -188,7 +188,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:f490b4cef452b945@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261113T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 171
@@ -198,7 +198,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:bc1749749d27ae79@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261120T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -208,7 +208,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:857e3ae2ff2242a7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261127T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 242
@@ -218,7 +218,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:e543da21363fca46@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261204T090000
 DURATION:PT2H
 SUMMARY:UvA COR – COR Heidag
@@ -228,7 +228,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:b7e9119a6bbbc35c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261211T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -238,7 +238,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:4b4708dd71a40c88@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261218T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 243
@@ -248,7 +248,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:0b49cfa7b5263da2@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20261218T130000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -257,7 +257,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:ea53087e33fd3e56@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270115T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -267,7 +267,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:b824652426bb7aac@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270115T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 172
@@ -277,7 +277,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:aaf81cdb20071a4d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270122T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 244
@@ -287,7 +287,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:bdf2c5536778cbe6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270129T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -297,7 +297,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:9ac9c12121d83802@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270212T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -307,7 +307,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:170c5df565967a18@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270219T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 245
@@ -317,7 +317,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:a35090bb62aad6d2@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270219T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 173
@@ -327,7 +327,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:a8556e88dd98ff1f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270305T090000
 DURATION:PT2H
 SUMMARY:UvA COR – COR-CvB Heiochtend
@@ -337,7 +337,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:b5b0fedb503d9d62@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270312T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -347,7 +347,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:4505de5ed415d7c3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270319T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 246 (Art.24)
@@ -357,7 +357,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:1bf9cf7530191b2d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270402T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -367,7 +367,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc3eb5ddb5e0dac@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270416T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -377,7 +377,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:7fd07fa26a9fbd2c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270416T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 174
@@ -387,7 +387,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:849811232dd06b81@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270423T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 247
@@ -397,7 +397,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:3593e7039537cdd3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270514T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -407,7 +407,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:02d83819eb6fa028@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270521T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 248
@@ -417,7 +417,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:cb47408be2226380@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270521T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 175
@@ -427,7 +427,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:75af57058f71ef6a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270528T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -437,7 +437,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:90f18c219a09409e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270611T100000
 DURATION:PT2H
 SUMMARY:UvA COR – Overleg COR-RvT
@@ -447,7 +447,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:11a500a8eb2192b6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270611T123000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -457,7 +457,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:4d69f38b2d44d481@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270625T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -467,7 +467,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:fbd66b145aa325f1@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270702T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 249
@@ -477,7 +477,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:b742fb96e67694ee@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270702T130000
 DURATION:PT2H
 SUMMARY:UvA GV – GOV 72 (Kaderbrief)
@@ -487,7 +487,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:f6ad5dcfd8e58b66@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270709T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -497,7 +497,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:1b127513f9eb1355@medezeggenschap.scienceguide.nl
-DTSTAMP:20261018T024718Z
+DTSTAMP:20261019T025007Z
 DTSTART;TZID=Europe/Amsterdam:20270709T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 176
