@@ -5,7 +5,7 @@ X-WR-CALNAME:Medezeggenschap Universiteit Utrecht
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:53d48007518b92d6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20260921T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -14,7 +14,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:1d1964a28911138b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20260921T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -23,7 +23,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:3fb1bf86a5bcd7d8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20260921T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -32,7 +32,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:fce02545683ff4bb@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20260928T100000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -41,7 +41,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:57f91b458bf3707b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20261026T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -50,7 +50,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:eb5b6db93a515f12@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20261026T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -59,7 +59,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:ac9d3e2d3a8c8bf8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20261026T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -68,7 +68,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:b027744004ef3e2a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20261027T133000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -77,7 +77,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:c7c2705009b64f10@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20261102T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -86,7 +86,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:d9cea96d0c56052a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20261207T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -95,7 +95,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:4a8af335d7f7fdc8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20261207T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -104,7 +104,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:b454b3f0c1393301@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20261207T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -113,7 +113,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:631193c6950830d8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20261208T133000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -122,7 +122,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:5a84ac2667e5ddec@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20261214T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -131,7 +131,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:a70c7357820fb562@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270208T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -140,7 +140,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:156de65183409ca4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270208T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -149,7 +149,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:cc976c0cba79f48d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270208T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -158,7 +158,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:89d55407414652ab@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270209T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -167,7 +167,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:046272421af48449@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270215T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -176,7 +176,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:7bf97e9b31e997c3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270315T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -185,7 +185,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:911fb0e311c7dd59@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270315T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -194,7 +194,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:5a8e92a9330f1d3e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270315T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -203,7 +203,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:c605d63937db27ef@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270316T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -212,7 +212,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:dfce7cb18119f726@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270322T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -221,7 +221,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:3dd4730e7af75cb7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270510T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -230,7 +230,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:f3298aa4f2c3a134@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270510T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -239,7 +239,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:8fb77c571bb73796@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270510T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -248,7 +248,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:0b67ed5dcebcb2ab@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270511T133000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -257,7 +257,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:d016d93625b1c8c1@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270524T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -266,7 +266,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:36d2a2464af01309@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270621T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -275,7 +275,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:cc3a29af3720e82d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270621T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -284,7 +284,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:fddea034ea9d3fea@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270621T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -293,7 +293,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:bc160043143da699@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270622T133000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -302,7 +302,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:ca757f3fdf46111c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261019T025007Z
+DTSTAMP:20261020T025022Z
 DTSTART;TZID=Europe/Amsterdam:20270628T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
