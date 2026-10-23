@@ -5,7 +5,7 @@ X-WR-CALNAME:Medezeggenschap Radboud Universiteit
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:bbd9f0782e674592@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20261012T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -15,7 +15,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:8327d2eaee1381f9@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20261012T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -25,7 +25,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:ff04e2f4963b1a79@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20261026T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -35,7 +35,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:385d0dfec9e1b056@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20261207T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -45,7 +45,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:1dde8260c4362041@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20261207T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -55,7 +55,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:99dd0e6fa9f94e76@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20261214T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -65,7 +65,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:873f77ad35a54b54@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270201T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -75,7 +75,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:0ff428598aff87bf@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270201T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -85,7 +85,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:932af22ef66bf383@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270215T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -95,7 +95,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:fbbfa000a34f8fbd@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270405T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -105,7 +105,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:a24d549acb13a20a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270405T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -115,7 +115,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:b75f00548e042100@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270412T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -125,7 +125,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:3ad795afacaf1e9e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270524T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -135,7 +135,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:8c70c549eb9d6d01@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270524T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -145,7 +145,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:b3a1648e0d9d4403@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270525T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -155,7 +155,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:db51aa06a4ddf163@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270705T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -165,7 +165,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:cead29ac2c1f7d03@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270705T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -175,7 +175,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:57d33fa575128742@medezeggenschap.scienceguide.nl
-DTSTAMP:20261022T025106Z
+DTSTAMP:20261023T025024Z
 DTSTART;TZID=Europe/Amsterdam:20270712T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
