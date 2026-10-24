@@ -4,48 +4,8 @@ PRODID:-//ScienceGuide//Medezeggenschap//NL
 X-WR-CALNAME:Medezeggenschap hoger onderwijs
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:49bb6841efd3dccd@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
-DTSTART;TZID=Europe/Amsterdam:20260625T093000
-DURATION:PT2H
-SUMMARY:TiU UR – UR OOI
-LOCATION:TEAMS
-URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/ce13c0a4-bad5-4518-ab66-0f7a7dd2bbe8?documentId=687913cd-cee2-4bcc-9ae6-0e026c7e9c7b&agendaItemId=39d8cffa-d3c1-41f6-b6c0-5e2741334c42
-DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/ce13c0a4-bad5-4518-ab66-0f7a7dd2bbe8
-END:VEVENT
-BEGIN:VEVENT
-UID:399df0f14ac3e7c7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
-DTSTART;TZID=Europe/Amsterdam:20260625T093000
-DURATION:PT2H
-SUMMARY:RUG UR – Universiteitsraad 344
-LOCATION:Vergaderzaal\, Muurstraat\, gebouw 1117
-URL:https://rug.my-meeting.nl/Documenten/Agenda-Universiteitsraad-344.pdf
-DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026/25-juni/09:30
-END:VEVENT
-BEGIN:VEVENT
-UID:3260a56bc830cf98@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
-DTSTART;TZID=Europe/Amsterdam:20260625T120000
-DURATION:PT2H
-SUMMARY:TiU UR – UR CFI
-LOCATION:TEAMS
-URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/4d379518-a0ea-4729-b697-f65b6c65b333?documentId=0eb3de00-f4ef-45e6-90b6-e5673e8f98b8&agendaItemId=51b76174-0bb8-447d-ad15-f8a73ac856ca
-DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/4d379518-a0ea-4729-b697-f65b6c65b333
-END:VEVENT
-BEGIN:VEVENT
-UID:04cc294b26ede11c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
-DTSTART;TZID=Europe/Amsterdam:20260625T150000
-DURATION:PT2H
-SUMMARY:TiU UR – UR DB Commissievervangend
-LOCATION:TEAMS
-URL:https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Document/4624a23b-6c18-4055-8db8-022bf68d89a2?documentId=e29014cc-3a9f-4fb3-b005-9bef386620ef&agendaItemId=e56ed8d8-3b4e-4421-bcd3-7feb126a1e3f
-DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Index/4624a23b-6c18-4055-8db8-022bf68d89a2
-END:VEVENT
-BEGIN:VEVENT
 UID:e7afdf1d85c0d03c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;VALUE=DATE:20260626
 SUMMARY:UvA COR – IV
 URL:https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/centrale-ondernemingsraad/schemas-en-agendas/agenda-iv-20260626.pdf
@@ -53,7 +13,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:0b8c3aa2fe246a71@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;VALUE=DATE:20260626
 SUMMARY:UvA GV – GOV 70
 URL:https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/centrale-ondernemingsraad/schemas-en-agendas/1.-agenda-gov70-26-juni-2026.pdf
@@ -61,7 +21,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:0e2468f4503d03b7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260629T144500
 DURATION:PT2H
 SUMMARY:Leiden UR – Universiteitsraad
@@ -71,7 +31,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:f603f55729bde9d4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260630T140000
 DURATION:PT2H
 SUMMARY:EUR UR – second plenary
@@ -81,7 +41,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/30-juni/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:ef75301af636e8c0@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260701T143000
 DURATION:PT2H
 SUMMARY:VU OR – Overlegvergadering OR-CvB (OV 260)
@@ -90,7 +50,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/over-de-vu/meer-over/agenda-vergaderingen-or
 END:VEVENT
 BEGIN:VEVENT
 UID:c0bb7efe99e81620@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260702T100000
 DURATION:PT2H
 SUMMARY:TiU UR – Universiteitsraad
@@ -100,7 +60,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:fc236202e35ea2fb@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;VALUE=DATE:20260703
 SUMMARY:UvA COR – IV
 URL:https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/centrale-ondernemingsraad/schemas-en-agendas/agenda-iv-20260703.pdf
@@ -108,7 +68,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:d59226c04072f54b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;VALUE=DATE:20260703
 SUMMARY:UvA COR – OV 239
 URL:https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/centrale-ondernemingsraad/schemas-en-agendas/agenda-ov-239-2026-07-03.pdf
@@ -116,7 +76,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:8ccc01e1815c554f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260707T140000
 DURATION:PT2H
 SUMMARY:EUR UR – Consultation meeting
@@ -126,7 +86,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/07-juli/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:e14c01aed8c02d29@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260713T134500
 DURATION:PT2H
 SUMMARY:Leiden UR – Overlegvergadering UR - CvB
@@ -136,7 +96,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:8a8debaaff236e59@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260714T140000
 DURATION:PT2H
 SUMMARY:EUR UR – third plenary
@@ -146,7 +106,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/14-juli/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:d0a8d1405c99723e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;VALUE=DATE:20260818
 SUMMARY:UvA CSR – Plenaire vergadering CSR
 URL:https://studentenraad.nl/csruva/
@@ -154,7 +114,7 @@ DESCRIPTION:Bron: https://studentenraad.nl/csruva/
 END:VEVENT
 BEGIN:VEVENT
 UID:e79ea82a45d746c0@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260820T130000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Bestuur
@@ -164,7 +124,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:83d649ede555031a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;VALUE=DATE:20260826
 SUMMARY:UvA CSR – Plenaire vergadering CSR
 URL:https://studentenraad.nl/csruva/
@@ -172,7 +132,7 @@ DESCRIPTION:Bron: https://studentenraad.nl/csruva/
 END:VEVENT
 BEGIN:VEVENT
 UID:538c1ee3f944ad72@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260827T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad 345
@@ -182,7 +142,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:34e91191d1b2ac71@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260827T113000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad 346
@@ -192,7 +152,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:4ee1835bd26c3d53@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260828T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -202,7 +162,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:d6c82119e1272999@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260901T140000
 DURATION:PT2H
 SUMMARY:EUR UR – first plenary
@@ -212,7 +172,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/01-september/1
 END:VEVENT
 BEGIN:VEVENT
 UID:09dc75a2269e3293@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;VALUE=DATE:20260903
 SUMMARY:UvA CSR – Plenaire vergadering CSR
 URL:https://studentenraad.nl/csruva/
@@ -220,7 +180,7 @@ DESCRIPTION:Bron: https://studentenraad.nl/csruva/
 END:VEVENT
 BEGIN:VEVENT
 UID:fb8a8b5c49eee06a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260904T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -230,7 +190,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:c6e3335d3083c03f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260904T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 169
@@ -240,7 +200,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:8d703f9be4fc9479@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;VALUE=DATE:20260907
 SUMMARY:UvA CSR – Plenaire vergadering CSR
 URL:https://studentenraad.nl/csruva/
@@ -248,7 +208,7 @@ DESCRIPTION:Bron: https://studentenraad.nl/csruva/
 END:VEVENT
 BEGIN:VEVENT
 UID:afe8374491885a1f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260909T084500
 DURATION:PT2H
 SUMMARY:UT UR – Externe commissievergaderingen met CvB
@@ -257,7 +217,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:65d058b4f6130e3f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260911T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 240 (Art.24)
@@ -267,7 +227,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:d835dab3abec8dc5@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260915T140000
 DURATION:PT2H
 SUMMARY:EUR UR – second plenary
@@ -277,7 +237,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/15-september/1
 END:VEVENT
 BEGIN:VEVENT
 UID:636d19127445c1a3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260916T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -287,7 +247,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:ad38886d9a96a065@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260916T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -297,7 +257,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:275c18516337cab0@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260916T123000
 DURATION:PT2H
 SUMMARY:VU OR – OR intern (OR 418)
@@ -306,7 +266,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/over-de-vu/meer-over/agenda-vergaderingen-or
 END:VEVENT
 BEGIN:VEVENT
 UID:88473c408eac6b31@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260916T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -316,7 +276,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:43aac71859be76e4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260917T103000
 DURATION:PT2H
 SUMMARY:TiU UR – UR OOI
@@ -326,7 +286,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:33120cd9a0c75378@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260917T120000
 DURATION:PT2H
 SUMMARY:TiU UR – UR CFI
@@ -336,7 +296,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:8f72225cefc6ab86@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260917T140000
 DURATION:PT2H
 SUMMARY:TiU UR – UR DB Commissievervangend
@@ -346,7 +306,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:c0742eb22fe2afa4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260918T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -356,7 +316,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:53d48007518b92d6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260921T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -365,7 +325,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:1d1964a28911138b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260921T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -374,7 +334,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:cb267e14c8bb0a85@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260921T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -383,7 +343,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:3fb1bf86a5bcd7d8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260921T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -392,7 +352,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:f8ca3d9196942756@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260922T140000
 DURATION:PT2H
 SUMMARY:EUR UR – Consultation Meeting
@@ -402,7 +362,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/22-september/1
 END:VEVENT
 BEGIN:VEVENT
 UID:34d4c24e030cc660@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260923T143000
 DURATION:PT2H
 SUMMARY:VU OR – Overlegvergadering OR-CvB (OV 261)
@@ -411,7 +371,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/over-de-vu/meer-over/agenda-vergaderingen-or
 END:VEVENT
 BEGIN:VEVENT
 UID:9b35d6ce1754261d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260924T090000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Middelen
@@ -421,7 +381,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/202
 END:VEVENT
 BEGIN:VEVENT
 UID:3d09d3560c3184e3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260924T103000
 DURATION:PT2H
 SUMMARY:TiU UR – Universiteitsraad
@@ -431,7 +391,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:e2720905bf3da785@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260924T120000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Bestuur
@@ -441,7 +401,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:855d6120e8c4c861@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260924T150000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
@@ -451,7 +411,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-On
 END:VEVENT
 BEGIN:VEVENT
 UID:1f8a330bb994e916@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260928T090000
 DURATION:PT2H
 SUMMARY:Leiden UR – Commissievergaderingen UR
@@ -461,7 +421,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:fce02545683ff4bb@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260928T100000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -470,7 +430,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:4c02fd14d30c7012@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260929T140000
 DURATION:PT2H
 SUMMARY:EUR UR – third plenary
@@ -480,7 +440,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/29-september/1
 END:VEVENT
 BEGIN:VEVENT
 UID:2b01aec70e2f61b9@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20260930T100000
 DURATION:PT2H
 SUMMARY:UT UR – Plenaire vergadering
@@ -489,7 +449,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:80d6890256dd69bc@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261002T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -499,7 +459,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:2c8444a7e899a611@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261005T134500
 DURATION:PT2H
 SUMMARY:Leiden UR – Universiteitsraad
@@ -509,7 +469,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:5043ac8c35681782@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261007T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -519,7 +479,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:d1c6bbae1e39d06e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261008T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad 347
@@ -529,7 +489,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:bbd9f0782e674592@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261012T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -539,7 +499,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:8327d2eaee1381f9@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261012T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -549,7 +509,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:2ea45a6be8468fdf@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261013T140000
 DURATION:PT2H
 SUMMARY:EUR UR – first plenary
@@ -559,7 +519,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/13-oktober/14:
 END:VEVENT
 BEGIN:VEVENT
 UID:bf9c919e5939bd90@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261014T123000
 DURATION:PT2H
 SUMMARY:VU OR – OR intern (OR 420)
@@ -568,7 +528,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/over-de-vu/meer-over/agenda-vergaderingen-or
 END:VEVENT
 BEGIN:VEVENT
 UID:27cb9c552ffd682d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261016T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -578,7 +538,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:41f55529aced3f87@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261016T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 170
@@ -588,7 +548,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:d5823200f4514dd0@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261019T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -597,7 +557,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:6e115b59fbf52b58@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261021T084500
 DURATION:PT2H
 SUMMARY:UT UR – Externe commissievergaderingen met CvB
@@ -606,7 +566,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:c8d7119c8d39b23c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261021T143000
 DURATION:PT2H
 SUMMARY:VU OR – Overlegvergadering OR-CvB (OV 262)
@@ -615,7 +575,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/over-de-vu/meer-over/agenda-vergaderingen-or
 END:VEVENT
 BEGIN:VEVENT
 UID:57f91b458bf3707b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261026T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -624,7 +584,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:eb5b6db93a515f12@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261026T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -633,7 +593,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:ff04e2f4963b1a79@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261026T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -643,7 +603,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:ec56b6cda1b18b98@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261026T134500
 DURATION:PT2H
 SUMMARY:Leiden UR – Overlegvergadering UR - CvB
@@ -653,7 +613,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:ac9d3e2d3a8c8bf8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261026T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -662,7 +622,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:b027744004ef3e2a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261027T133000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -671,7 +631,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:a4f0e0fc6d2958d6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261027T140000
 DURATION:PT2H
 SUMMARY:EUR UR – second plenary
@@ -681,7 +641,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/27-oktober/14:
 END:VEVENT
 BEGIN:VEVENT
 UID:3a20c8c34bdfd2d7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261029T090000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Middelen
@@ -691,7 +651,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/202
 END:VEVENT
 BEGIN:VEVENT
 UID:63f29bf17f46b450@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261029T093000
 DURATION:PT2H
 SUMMARY:TiU UR – UR DB Commissievervangend
@@ -700,7 +660,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:902a5e3f3cdb13f6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261029T120000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Bestuur
@@ -710,7 +670,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:fa906739a23820ff@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261029T120000
 DURATION:PT2H
 SUMMARY:TiU UR – UR CFI
@@ -720,7 +680,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:ae515e08f37e74ab@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261029T150000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
@@ -730,7 +690,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-On
 END:VEVENT
 BEGIN:VEVENT
 UID:c8f945718ad621d5@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261029T150000
 DURATION:PT2H
 SUMMARY:TiU UR – UR OOI
@@ -739,7 +699,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:7c4f2ea5bad8750d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261030T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 241
@@ -749,7 +709,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:c7c2705009b64f10@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261102T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -758,7 +718,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:76a77514a6303bdd@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261103T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -768,7 +728,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/03-november/14
 END:VEVENT
 BEGIN:VEVENT
 UID:29bd2a8f12663075@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261104T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -778,7 +738,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:d442caa310c00e41@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261104T100000
 DURATION:PT2H
 SUMMARY:UT UR – Plenaire vergadering
@@ -787,7 +747,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:80e5ca32cd75a54e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261104T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -797,7 +757,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:25a88e9ec42b1bbe@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261104T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -807,7 +767,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:5859877aa3171f9d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261105T100000
 DURATION:PT2H
 SUMMARY:TiU UR – Universiteitsraad
@@ -817,7 +777,7 @@ DESCRIPTION:Bron: https://tilburguniversity.bestuurlijkeinformatie.nl/Agenda/Ind
 END:VEVENT
 BEGIN:VEVENT
 UID:776913e02e5b4d63@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261106T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -827,7 +787,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:4d9871d9fe80dadc@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261106T130000
 DURATION:PT2H
 SUMMARY:UvA GV – GOV 71 (Begroting)
@@ -837,7 +797,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:afef67c91a15ed6d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261110T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -847,7 +807,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/10-november/14
 END:VEVENT
 BEGIN:VEVENT
 UID:7ed530ffc09a99ad@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261112T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad
@@ -857,7 +817,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:f7aa1718bd2ab6f2@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;VALUE=DATE:20261113
 SUMMARY:UvA COR – Overleg COR-RvT
 LOCATION:MH 0.21
@@ -866,7 +826,7 @@ DESCRIPTION:Bron: https://www.uva.nl/over-de-uva/organisatie/beleid-ondersteunin
 END:VEVENT
 BEGIN:VEVENT
 UID:f490b4cef452b945@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261113T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 171
@@ -876,7 +836,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:fe3695fc9496cbec@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261116T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -885,7 +845,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:fd1b702f9b4da2be@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261117T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -895,7 +855,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/17-november/14
 END:VEVENT
 BEGIN:VEVENT
 UID:db0123b8ae3947b1@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261118T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -905,7 +865,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:bc1749749d27ae79@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261120T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -915,7 +875,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:5cf8326a64471e4c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261125T084500
 DURATION:PT2H
 SUMMARY:UT UR – Externe commissievergaderingen met CvB
@@ -924,7 +884,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:759bf58e0824df39@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261126T090000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Middelen
@@ -934,7 +894,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/202
 END:VEVENT
 BEGIN:VEVENT
 UID:9b25fcff7576c203@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261126T120000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Bestuur
@@ -944,7 +904,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:4d26f45df6065efa@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261126T150000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
@@ -954,7 +914,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-On
 END:VEVENT
 BEGIN:VEVENT
 UID:857e3ae2ff2242a7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261127T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 242
@@ -964,7 +924,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:d78fe20cd2a41738@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261201T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -974,7 +934,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/01-december/14
 END:VEVENT
 BEGIN:VEVENT
 UID:9752b75d29e7e552@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261202T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -984,7 +944,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:aecf0054bc79796c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261202T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -994,7 +954,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:18849cb70bcb307f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261202T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -1004,7 +964,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:e543da21363fca46@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261204T090000
 DURATION:PT2H
 SUMMARY:UvA COR – COR Heidag
@@ -1014,7 +974,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:385d0dfec9e1b056@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261207T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -1024,7 +984,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:d9cea96d0c56052a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261207T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -1033,7 +993,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:4a8af335d7f7fdc8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261207T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -1042,7 +1002,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:1dde8260c4362041@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261207T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -1052,7 +1012,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:b454b3f0c1393301@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261207T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -1061,7 +1021,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:631193c6950830d8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261208T133000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -1070,7 +1030,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:93373a58b1784689@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261208T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1080,7 +1040,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/08-december/14
 END:VEVENT
 BEGIN:VEVENT
 UID:9f453b41f637a64f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261209T100000
 DURATION:PT2H
 SUMMARY:UT UR – Plenaire vergadering
@@ -1089,7 +1049,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:38156bd93cd787f0@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261210T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad
@@ -1099,7 +1059,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:b7e9119a6bbbc35c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261211T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -1109,7 +1069,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:99dd0e6fa9f94e76@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261214T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -1119,7 +1079,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:5a84ac2667e5ddec@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261214T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -1128,7 +1088,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:6b5c186a11706915@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261215T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1138,7 +1098,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/15-december/14
 END:VEVENT
 BEGIN:VEVENT
 UID:3701252f4d8fd13f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261216T100000
 DURATION:PT2H
 SUMMARY:UT UR – Extra plenaire vergadering
@@ -1147,7 +1107,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:e40b444c66f6824a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261216T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -1157,7 +1117,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:4b4708dd71a40c88@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261218T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 243
@@ -1167,7 +1127,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:0b49cfa7b5263da2@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20261218T130000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -1176,7 +1136,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:92d88da475a3f923@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270105T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1186,7 +1146,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/05-januari/14:
 END:VEVENT
 BEGIN:VEVENT
 UID:ea53087e33fd3e56@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270115T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -1196,7 +1156,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:b824652426bb7aac@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270115T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 172
@@ -1206,7 +1166,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:212e8e16668b8893@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270119T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1216,7 +1176,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/19-januari/14:
 END:VEVENT
 BEGIN:VEVENT
 UID:aaf81cdb20071a4d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270122T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 244
@@ -1226,7 +1186,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:c3c88227f8773bf7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270126T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1236,7 +1196,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/26-januari/14:
 END:VEVENT
 BEGIN:VEVENT
 UID:bdf2c5536778cbe6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270129T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -1246,7 +1206,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:873f77ad35a54b54@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270201T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -1256,7 +1216,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:0ff428598aff87bf@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270201T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -1266,7 +1226,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:f45027ea90a04c17@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270202T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1276,7 +1236,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/02-februari/14
 END:VEVENT
 BEGIN:VEVENT
 UID:72b2348876e7697b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270203T084500
 DURATION:PT2H
 SUMMARY:UT UR – Externe commissievergaderingen met CvB
@@ -1285,7 +1245,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:ac99936cea847100@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270203T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -1295,7 +1255,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:4aaff6399065719e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270203T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -1305,7 +1265,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:805b12905dd12502@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270203T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -1315,7 +1275,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:dce84cf2877296ff@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270204T090000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Middelen
@@ -1325,7 +1285,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/202
 END:VEVENT
 BEGIN:VEVENT
 UID:f4b0df6cac4b9e2b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270204T120000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Bestuur
@@ -1335,7 +1295,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:ab89efe88e7435bb@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270204T150000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
@@ -1345,7 +1305,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-On
 END:VEVENT
 BEGIN:VEVENT
 UID:a70c7357820fb562@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270208T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -1354,7 +1314,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:156de65183409ca4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270208T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -1363,7 +1323,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:cc976c0cba79f48d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270208T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -1372,7 +1332,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:6f4bdf61d930ad4e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270209T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1382,7 +1342,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/09-februari/14
 END:VEVENT
 BEGIN:VEVENT
 UID:89d55407414652ab@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270209T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -1391,7 +1351,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:9ac9c12121d83802@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270212T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -1401,7 +1361,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:70a9fc543098ec57@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270215T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -1410,7 +1370,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:932af22ef66bf383@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270215T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -1420,7 +1380,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:046272421af48449@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270215T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -1429,7 +1389,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:93a8139b3a1c4482@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270217T100000
 DURATION:PT2H
 SUMMARY:UT UR – Plenaire vergadering
@@ -1438,7 +1398,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:c6b57f6a40e41800@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270218T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad
@@ -1448,7 +1408,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:170c5df565967a18@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270219T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 245
@@ -1458,7 +1418,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:a35090bb62aad6d2@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270219T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 173
@@ -1468,7 +1428,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:b795074f77084dfe@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270224T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -1478,7 +1438,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:81cdda3489191d21@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270302T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1488,7 +1448,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/02-maart/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:ddbbd16b591b4af3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270304T090000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Middelen
@@ -1498,7 +1458,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/202
 END:VEVENT
 BEGIN:VEVENT
 UID:e0b03abcf66bd68f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270304T120000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Bestuur
@@ -1508,7 +1468,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:935f997f070bc325@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270304T150000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
@@ -1518,7 +1478,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-On
 END:VEVENT
 BEGIN:VEVENT
 UID:a8556e88dd98ff1f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270305T090000
 DURATION:PT2H
 SUMMARY:UvA COR – COR-CvB Heiochtend
@@ -1528,7 +1488,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:5d2af008652fe462@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270309T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1538,7 +1498,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/09-maart/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:8734bbb192e371a7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270310T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -1548,7 +1508,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:60fb3186a1f725d8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270310T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -1558,7 +1518,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:27b7995adbccf0c6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270310T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -1568,7 +1528,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:b5b0fedb503d9d62@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270312T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -1578,7 +1538,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:7bf97e9b31e997c3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270315T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -1587,7 +1547,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:911fb0e311c7dd59@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270315T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -1596,7 +1556,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:5a8e92a9330f1d3e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270315T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -1605,7 +1565,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:eadafdbf80a3f019@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270316T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1615,7 +1575,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/16-maart/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:c605d63937db27ef@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270316T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -1624,7 +1584,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:fc3620622f79ab03@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270317T084500
 DURATION:PT2H
 SUMMARY:UT UR – Externe commissievergaderingen met CvB
@@ -1633,7 +1593,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:313327afada72f1d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270318T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad
@@ -1643,7 +1603,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:4505de5ed415d7c3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270319T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 246 (Art.24)
@@ -1653,7 +1613,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:dfce7cb18119f726@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270322T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -1662,7 +1622,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:a170d281b178599a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270323T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1672,7 +1632,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/23-maart/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:8ba72660f1fa9ea8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270324T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -1682,7 +1642,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:554f161cdfc6f5f2@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270331T100000
 DURATION:PT2H
 SUMMARY:UT UR – Plenaire vergadering
@@ -1691,7 +1651,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:dc333204b894187d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270401T090000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Middelen
@@ -1701,7 +1661,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/202
 END:VEVENT
 BEGIN:VEVENT
 UID:6ab808cbfe8895e2@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270401T120000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Bestuur
@@ -1711,7 +1671,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:f12cc53ac9126a45@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270401T150000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
@@ -1721,7 +1681,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-On
 END:VEVENT
 BEGIN:VEVENT
 UID:1bf9cf7530191b2d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270402T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -1731,7 +1691,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:fbbfa000a34f8fbd@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270405T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -1741,7 +1701,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:a24d549acb13a20a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270405T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -1751,7 +1711,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:04c87a0a82d67568@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270406T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1761,7 +1721,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/06-april/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:717f5b7a62324908@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270407T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -1771,7 +1731,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:5c278ca2ffbf7081@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270407T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -1781,7 +1741,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:ec9a7a388c2eaba4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270407T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -1791,7 +1751,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:b75f00548e042100@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270412T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -1801,7 +1761,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:ca9a19897bcbbe22@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270413T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1811,7 +1771,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/13-april/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:36715b3ed77facd7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270415T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad
@@ -1821,7 +1781,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc3eb5ddb5e0dac@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270416T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -1831,7 +1791,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:7fd07fa26a9fbd2c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270416T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 174
@@ -1841,7 +1801,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:ff6eae496f1f4714@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270419T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -1850,7 +1810,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:5581a9586c0589b4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270421T084500
 DURATION:PT2H
 SUMMARY:UT UR – Externe commissievergaderingen met CvB
@@ -1859,7 +1819,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:5ad1f46ba089425d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270421T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -1869,7 +1829,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:849811232dd06b81@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270423T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 247
@@ -1879,7 +1839,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:df8e8522cecdd1f0@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270503T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -1888,7 +1848,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:3dd4730e7af75cb7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270510T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -1897,7 +1857,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:f3298aa4f2c3a134@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270510T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -1906,7 +1866,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:8fb77c571bb73796@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270510T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -1915,7 +1875,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:0b67ed5dcebcb2ab@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270511T133000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -1924,7 +1884,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:923a0ce931d36fed@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270511T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -1934,7 +1894,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/11-mei/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:956ad6c9671e42cc@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270512T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -1944,7 +1904,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:57ff2fc9ed9f3fb8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270512T100000
 DURATION:PT2H
 SUMMARY:UT UR – Plenaire vergadering
@@ -1953,7 +1913,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:dcaac6fbbbc1e762@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270512T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -1963,7 +1923,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:e9f7ca8594ed738e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270512T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -1973,7 +1933,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:faeb25dd364b55f7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270513T090000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Middelen
@@ -1983,7 +1943,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/202
 END:VEVENT
 BEGIN:VEVENT
 UID:6a26047b5ab69669@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270513T120000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Bestuur
@@ -1993,7 +1953,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:b3149d7829f2bd7c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270513T150000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
@@ -2003,7 +1963,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-On
 END:VEVENT
 BEGIN:VEVENT
 UID:3593e7039537cdd3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270514T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -2013,7 +1973,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:02d83819eb6fa028@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270521T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 248
@@ -2023,7 +1983,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:cb47408be2226380@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270521T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 175
@@ -2033,7 +1993,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:3ad795afacaf1e9e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270524T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -2043,7 +2003,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:8c70c549eb9d6d01@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270524T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -2053,7 +2013,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:d016d93625b1c8c1@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270524T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -2062,7 +2022,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:b3a1648e0d9d4403@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270525T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -2072,7 +2032,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:5f7d44234450fc9c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270525T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -2082,7 +2042,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/25-mei/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:f4f21cb1a88527e6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270526T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -2092,7 +2052,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:35fa8daabac71d31@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270527T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad
@@ -2102,7 +2062,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:75af57058f71ef6a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270528T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -2112,7 +2072,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:a41d01caf5b42918@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270601T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -2122,7 +2082,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/01-juni/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:c4b72b70f306de59@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270608T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -2132,7 +2092,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/08-juni/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:18b3fb76932a8765@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270609T084500
 DURATION:PT2H
 SUMMARY:UT UR – Externe commissievergaderingen met CvB
@@ -2141,7 +2101,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:714439d74a74d86b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270609T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -2151,7 +2111,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:29d968e86b756f8e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270609T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -2161,7 +2121,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:fedda2be9dd9ff2c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270609T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -2171,7 +2131,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:91bd356039873032@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270610T090000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Middelen
@@ -2181,7 +2141,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Middelen/202
 END:VEVENT
 BEGIN:VEVENT
 UID:9acb916e347fcd2a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270610T120000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Bestuur
@@ -2191,7 +2151,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Bestuur/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:eae9b34639bab60d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270610T150000
 DURATION:PT2H
 SUMMARY:RUG UR – Commissie Onderwijs & Onderzoek
@@ -2201,7 +2161,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Commissie-Onderwijs-On
 END:VEVENT
 BEGIN:VEVENT
 UID:90f18c219a09409e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270611T100000
 DURATION:PT2H
 SUMMARY:UvA COR – Overleg COR-RvT
@@ -2211,7 +2171,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:11a500a8eb2192b6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270611T123000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -2221,7 +2181,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:d5f44cf85439b511@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270614T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -2230,7 +2190,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:f439d8f648c0ec45@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270615T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -2240,7 +2200,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/15-juni/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:36d2a2464af01309@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270621T093000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie FHID – oordeelvorming met CvB
@@ -2249,7 +2209,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:cc3a29af3720e82d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270621T120000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie SPO – oordeelvorming met CvB
@@ -2258,7 +2218,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:fddea034ea9d3fea@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270621T143000
 DURATION:PT2H
 SUMMARY:UU UR – Commissie OOS – oordeelvorming met CvB
@@ -2267,7 +2227,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:bc160043143da699@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270622T133000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – oordeelvorming plenair
@@ -2276,7 +2236,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:69c8608e9f6e7c19@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270623T100000
 DURATION:PT2H
 SUMMARY:UT UR – Plenaire vergadering
@@ -2285,7 +2245,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:d21648a185f54f6c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270623T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -2295,7 +2255,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:613413ec79e159c9@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270624T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad
@@ -2305,7 +2265,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:4d69f38b2d44d481@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270625T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -2315,7 +2275,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:ca757f3fdf46111c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270628T140000
 DURATION:PT2H
 SUMMARY:UU UR – U-raad met CvB – besluitvorming
@@ -2324,7 +2284,7 @@ DESCRIPTION:Bron: https://www.uu.nl/organisatie/bestuur-en-organisatie/medezegge
 END:VEVENT
 BEGIN:VEVENT
 UID:a39bfeebd10a30f2@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270629T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -2334,7 +2294,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/29-juni/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:9b4cfffdd46e3079@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270630T100000
 DURATION:PT2H
 SUMMARY:UT UR – Extra plenaire vergadering
@@ -2343,7 +2303,7 @@ DESCRIPTION:Bron: https://www.utwente.nl/en/university-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:fbd66b145aa325f1@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270702T100000
 DURATION:PT2H
 SUMMARY:UvA COR – OV 249
@@ -2353,7 +2313,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:b742fb96e67694ee@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270702T130000
 DURATION:PT2H
 SUMMARY:UvA GV – GOV 72 (Kaderbrief)
@@ -2363,7 +2323,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:db51aa06a4ddf163@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270705T093000
 DURATION:PT2H
 SUMMARY:RU GV – Voorbereidende GV
@@ -2373,7 +2333,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:cead29ac2c1f7d03@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270705T133000
 DURATION:PT2H
 SUMMARY:RU GV – Overlegvergadering GV-CvB
@@ -2383,7 +2343,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:97838aeb1d522c45@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270706T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -2393,7 +2353,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/06-juli/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:f6ad5dcfd8e58b66@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270709T100000
 DURATION:PT2H
 SUMMARY:UvA COR – IV
@@ -2403,7 +2363,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:1b127513f9eb1355@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270709T133000
 DURATION:PT2H
 SUMMARY:UvA GV – GV 176
@@ -2413,7 +2373,7 @@ DESCRIPTION:Bron: https://www.uva.nl/binaries/content/assets/uva/nl/over-de-uva/
 END:VEVENT
 BEGIN:VEVENT
 UID:57d33fa575128742@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270712T133000
 DURATION:PT2H
 SUMMARY:RU GV – Afsluitende GV
@@ -2423,7 +2383,7 @@ DESCRIPTION:Bron: https://www.ru.nl/over-ons/organisatie/medezeggenschap
 END:VEVENT
 BEGIN:VEVENT
 UID:162f5667d680e499@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20270713T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -2433,7 +2393,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/13-juli/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:4d1219d527ee72a3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20271007T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad
@@ -2443,7 +2403,7 @@ DESCRIPTION:Bron: https://rug.my-meeting.nl/Vergaderingen/Universiteitsraad/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:0d73621847c7f29d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261023T025024Z
+DTSTAMP:20261024T030551Z
 DTSTART;TZID=Europe/Amsterdam:20271111T093000
 DURATION:PT2H
 SUMMARY:RUG UR – Universiteitsraad
