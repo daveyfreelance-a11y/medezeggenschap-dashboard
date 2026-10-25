@@ -5,7 +5,7 @@ X-WR-CALNAME:Medezeggenschap Universiteit Maastricht
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:636d19127445c1a3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20260916T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -15,7 +15,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:ad38886d9a96a065@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20260916T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -25,7 +25,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:88473c408eac6b31@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20260916T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -35,7 +35,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:5043ac8c35681782@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20261007T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -45,7 +45,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:29bd2a8f12663075@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20261104T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -55,7 +55,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:80e5ca32cd75a54e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20261104T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -65,7 +65,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:25a88e9ec42b1bbe@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20261104T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -75,7 +75,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:db0123b8ae3947b1@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20261118T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -85,7 +85,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:9752b75d29e7e552@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20261202T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -95,7 +95,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:aecf0054bc79796c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20261202T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -105,7 +105,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:18849cb70bcb307f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20261202T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -115,7 +115,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:e40b444c66f6824a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20261216T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -125,7 +125,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:ac99936cea847100@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270203T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -135,7 +135,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:4aaff6399065719e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270203T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -145,7 +145,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:805b12905dd12502@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270203T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -155,7 +155,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:b795074f77084dfe@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270224T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -165,7 +165,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:8734bbb192e371a7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270310T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -175,7 +175,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:60fb3186a1f725d8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270310T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -185,7 +185,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:27b7995adbccf0c6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270310T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -195,7 +195,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:8ba72660f1fa9ea8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270324T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -205,7 +205,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:717f5b7a62324908@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270407T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -215,7 +215,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:5c278ca2ffbf7081@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270407T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -225,7 +225,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:ec9a7a388c2eaba4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270407T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -235,7 +235,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:5ad1f46ba089425d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270421T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -245,7 +245,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:956ad6c9671e42cc@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270512T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -255,7 +255,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:dcaac6fbbbc1e762@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270512T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -265,7 +265,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:e9f7ca8594ed738e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270512T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -275,7 +275,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:f4f21cb1a88527e6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270526T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
@@ -285,7 +285,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:714439d74a74d86b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270609T090000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Strategy
@@ -295,7 +295,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:29d968e86b756f8e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270609T120000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Research & Education
@@ -305,7 +305,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:fedda2be9dd9ff2c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270609T150000
 DURATION:PT2H
 SUMMARY:UM UR – Commissie Operations
@@ -315,7 +315,7 @@ DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/p
 END:VEVENT
 BEGIN:VEVENT
 UID:d21648a185f54f6c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261024T030551Z
+DTSTAMP:20261025T025516Z
 DTSTART;TZID=Europe/Amsterdam:20270623T140000
 DURATION:PT2H
 SUMMARY:UM UR – Universiteitsraad
