@@ -4,18 +4,8 @@ PRODID:-//ScienceGuide//Medezeggenschap//NL
 X-WR-CALNAME:Medezeggenschap Erasmus Universiteit Rotterdam
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:f603f55729bde9d4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
-DTSTART;TZID=Europe/Amsterdam:20260630T140000
-DURATION:PT2H
-SUMMARY:EUR UR – second plenary
-LOCATION:See agenda
-URL:https://eur.my-meeting.nl/Documenten/2026-30-06-Agenda-second-plenary-2.pdf
-DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/30-juni/14:00
-END:VEVENT
-BEGIN:VEVENT
 UID:8ccc01e1815c554f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20260707T140000
 DURATION:PT2H
 SUMMARY:EUR UR – Consultation meeting
@@ -25,7 +15,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/07-juli/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:8a8debaaff236e59@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20260714T140000
 DURATION:PT2H
 SUMMARY:EUR UR – third plenary
@@ -35,7 +25,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/14-juli/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:d6c82119e1272999@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20260901T140000
 DURATION:PT2H
 SUMMARY:EUR UR – first plenary
@@ -45,7 +35,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/01-september/1
 END:VEVENT
 BEGIN:VEVENT
 UID:d835dab3abec8dc5@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20260915T140000
 DURATION:PT2H
 SUMMARY:EUR UR – second plenary
@@ -55,7 +45,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/15-september/1
 END:VEVENT
 BEGIN:VEVENT
 UID:f8ca3d9196942756@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20260922T140000
 DURATION:PT2H
 SUMMARY:EUR UR – Consultation Meeting
@@ -65,7 +55,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/22-september/1
 END:VEVENT
 BEGIN:VEVENT
 UID:4c02fd14d30c7012@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20260929T140000
 DURATION:PT2H
 SUMMARY:EUR UR – third plenary
@@ -75,7 +65,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/29-september/1
 END:VEVENT
 BEGIN:VEVENT
 UID:2ea45a6be8468fdf@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20261013T140000
 DURATION:PT2H
 SUMMARY:EUR UR – first plenary
@@ -85,7 +75,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/13-oktober/14:
 END:VEVENT
 BEGIN:VEVENT
 UID:a4f0e0fc6d2958d6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20261027T140000
 DURATION:PT2H
 SUMMARY:EUR UR – second plenary
@@ -94,18 +84,18 @@ URL:https://eur.my-meeting.nl/Documenten/2026-10-27-Agenda-second-plenary.pdf
 DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/27-oktober/14:00
 END:VEVENT
 BEGIN:VEVENT
-UID:76a77514a6303bdd@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+UID:9f827e8fc97d7289@medezeggenschap.scienceguide.nl
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20261103T140000
 DURATION:PT2H
-SUMMARY:EUR UR – vergadering
+SUMMARY:EUR UR – Consultation meeting
 LOCATION:See agenda
-URL:https://eur.my-meeting.nl/Vergaderingen/UC/2026/03-november/14:00
+URL:https://eur.my-meeting.nl/Documenten/2026-11-03-Agenda-Consultation-meeting.pdf
 DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/03-november/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:afef67c91a15ed6d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20261110T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -115,7 +105,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/10-november/14
 END:VEVENT
 BEGIN:VEVENT
 UID:fd1b702f9b4da2be@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20261117T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -125,7 +115,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/17-november/14
 END:VEVENT
 BEGIN:VEVENT
 UID:d78fe20cd2a41738@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20261201T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -135,7 +125,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/01-december/14
 END:VEVENT
 BEGIN:VEVENT
 UID:93373a58b1784689@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20261208T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -145,7 +135,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/08-december/14
 END:VEVENT
 BEGIN:VEVENT
 UID:6b5c186a11706915@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20261215T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -155,7 +145,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2026/15-december/14
 END:VEVENT
 BEGIN:VEVENT
 UID:92d88da475a3f923@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270105T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -165,7 +155,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/05-januari/14:
 END:VEVENT
 BEGIN:VEVENT
 UID:212e8e16668b8893@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270119T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -175,7 +165,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/19-januari/14:
 END:VEVENT
 BEGIN:VEVENT
 UID:c3c88227f8773bf7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270126T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -185,7 +175,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/26-januari/14:
 END:VEVENT
 BEGIN:VEVENT
 UID:f45027ea90a04c17@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270202T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -195,7 +185,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/02-februari/14
 END:VEVENT
 BEGIN:VEVENT
 UID:6f4bdf61d930ad4e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270209T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -205,7 +195,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/09-februari/14
 END:VEVENT
 BEGIN:VEVENT
 UID:81cdda3489191d21@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270302T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -215,7 +205,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/02-maart/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:5d2af008652fe462@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270309T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -225,7 +215,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/09-maart/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:eadafdbf80a3f019@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270316T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -235,7 +225,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/16-maart/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:a170d281b178599a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270323T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -245,7 +235,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/23-maart/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:04c87a0a82d67568@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270406T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -255,7 +245,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/06-april/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:ca9a19897bcbbe22@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270413T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -265,7 +255,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/13-april/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:923a0ce931d36fed@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270511T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -275,7 +265,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/11-mei/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:5f7d44234450fc9c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270525T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -285,7 +275,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/25-mei/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:a41d01caf5b42918@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270601T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -295,7 +285,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/01-juni/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:c4b72b70f306de59@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270608T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -305,7 +295,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/08-juni/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:f439d8f648c0ec45@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270615T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -315,7 +305,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/15-juni/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:a39bfeebd10a30f2@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270629T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -325,7 +315,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/29-juni/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:97838aeb1d522c45@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270706T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering
@@ -335,7 +325,7 @@ DESCRIPTION:Bron: https://eur.my-meeting.nl/Vergaderingen/UC/2027/06-juli/14:00
 END:VEVENT
 BEGIN:VEVENT
 UID:162f5667d680e499@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20270713T140000
 DURATION:PT2H
 SUMMARY:EUR UR – vergadering

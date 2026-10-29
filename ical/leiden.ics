@@ -5,7 +5,7 @@ X-WR-CALNAME:Medezeggenschap Universiteit Leiden
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:e14c01aed8c02d29@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20260713T134500
 DURATION:PT2H
 SUMMARY:Leiden UR – Overlegvergadering UR - CvB
@@ -15,7 +15,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:1f8a330bb994e916@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20260928T090000
 DURATION:PT2H
 SUMMARY:Leiden UR – Commissievergaderingen UR
@@ -25,7 +25,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:2c8444a7e899a611@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20261005T134500
 DURATION:PT2H
 SUMMARY:Leiden UR – Universiteitsraad
@@ -35,7 +35,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:ec56b6cda1b18b98@medezeggenschap.scienceguide.nl
-DTSTAMP:20261028T031149Z
+DTSTAMP:20261029T031132Z
 DTSTART;TZID=Europe/Amsterdam:20261026T134500
 DURATION:PT2H
 SUMMARY:Leiden UR – Overlegvergadering UR - CvB
