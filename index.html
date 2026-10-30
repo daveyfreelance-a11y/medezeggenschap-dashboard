@@ -126,6 +126,7 @@ a:hover{color:var(--inkt)}
 .slot{color:#7A4B00}
 .inhoud{margin:0 0 6px;padding:10px 12px;background:var(--papier);border:1px solid var(--lijn);border-radius:var(--r);font-size:14px;color:var(--grijs)}
 .inhoud a{font-weight:600}
+.stuk .intekst{grid-column:2/-1;justify-self:start;font:600 11.5px/1 inherit;font-family:inherit;color:#7A4B00;background:#FFF6D6;border-radius:4px;padding:4px 7px;margin-top:2px}
 @media (max-width:720px){
   .stuk{grid-template-columns:52px 1fr}
   .stuk .wat{grid-column:2;justify-self:start}
@@ -370,7 +371,7 @@ a:hover{color:var(--inkt)}
   // Zoektekst per stuk een keer opbouwen: titel, instelling (naam, korte naam, afkorting) en vergadering.
   STUKKEN.forEach(s => { const i = INST[s.i] || {naam:s.i, id:s.i};
     s._z = plat([s.t, i.naam, kort(i), s.i, s.m, WAT[s.s], ...(s.x||[]).map(x => x.m)].join(' ')); });
-  let sSoort = '', sPeriode = '', sAantal = 150;
+  let sSoort = '', sPeriode = '', sAantal = 150, zoekLaden = false;
   let vorigBezoek = null;
   try { vorigBezoek = localStorage.getItem('mz-vorig-bezoek'); localStorage.setItem('mz-vorig-bezoek', new Date().toISOString()); } catch (_) {}
 
@@ -398,21 +399,41 @@ a:hover{color:var(--inkt)}
     return `<div class="stuk"><span class="org" style="background:${KLEUR[s.i]||'var(--grijs)'}" title="${e(i.naam)}">${e(s.i)}</span>
       <a class="titel" href="${e(s.u)}">${nieuw?'<span class="nieuw" title="Nieuw sinds je vorige bezoek"></span>':''}${markeer(s.t, woorden)}</a>
       <span class="wat wat-${e(s.s)}">${e(WAT[s.s]||s.s)}</span>
+      ${s._tekst ? '<span class="intekst">gevonden in de tekst</span>' : ''}
       <div class="waar">${waar}${i.login?` · <span class="slot" title="${e(i.login)}">🔒 inloggen met 'burger'</span>`:''}${s.x?`<br>Ook bij: ${s.x.map(x => `<a href="${e(x.u)}">${e(x.m||'andere vergadering')}${x.d?' ('+datumNl(x.d)+')':''}</a>`).join(', ')}`:''}</div></div>`;
   }
   function stukken(){
     const woorden = plat($('#s-zoek').value).split(/\s+/).filter(Boolean);
     const inst = $('#s-inst').value;
     const grens = sPeriode ? new Date(Date.now() - Number(sPeriode)*864e5).toISOString() : '';
-    const lijst = STUKKEN.filter(s => (!inst || s.i === inst) && (!sSoort || s.s === sSoort)
-        && (!grens || (s.g && s.g >= grens)) && woorden.every(w => s._z.includes(w)));
+    // Zoeken in de tekst: het zoekbestand pas laden als iemand iets intypt.
+    if (woorden.length && D.zoek_bron && !window.MZ_ZOEK && !zoekLaden) {
+      zoekLaden = true;
+      const sc = document.createElement('script'); sc.src = D.zoek_bron;
+      sc.onload = () => { zoekLaden = 'klaar'; stukken(); };
+      sc.onerror = () => { zoekLaden = 'mislukt'; stukken(); };
+      document.head.appendChild(sc);
+    }
+    const Z = window.MZ_ZOEK;
+    const tekstVan = s => Z ? [s.u, ...(s.x||[]).map(x => x.u)].map(u => Z[u] || '').join(' ') : '';
+    const lijst = STUKKEN.filter(s => {
+      if ((inst && s.i !== inst) || (sSoort && s.s !== sSoort) || (grens && !(s.g && s.g >= grens))) return false;
+      s._tekst = false;
+      if (woorden.every(w => s._z.includes(w))) return true;
+      if (!Z) return false;
+      const t = s._z + ' ' + tekstVan(s);
+      return (s._tekst = woorden.every(w => t.includes(w)));
+    });
+    const viaTekst = lijst.filter(s => s._tekst).length;
     const nieuwAantal = vorigBezoek ? lijst.filter(s => s.g && s.g > vorigBezoek).length : 0;
     $('#s-telling').textContent = `${lijst.length.toLocaleString('nl-NL')} stukken` + (woorden.length ? ` met “${$('#s-zoek').value.trim()}”` : '')
+      + (viaTekst ? ` (${lijst.length - viaTekst} in de titel, ${viaTekst} alleen in de tekst)` : '')
       + (nieuwAantal ? ` · ${nieuwAantal} nieuw sinds je vorige bezoek` : '');
-    // Dit zoekt alleen in titels; SharePoint doorzoekt ook de tekst van de bewaarde pdf's.
     const q = $('#s-zoek').value.trim();
-    $('#s-inhoud').hidden = !(q && D.zoek_inhoud);
-    if (q && D.zoek_inhoud) $('#s-inhoud').innerHTML = `Hier wordt gezocht in de titels. <a href="${e(D.zoek_inhoud + encodeURIComponent(q))}">Zoek “${e(q)}” ook in de tekst van de stukken (SharePoint) →</a>`;
+    const stand = !D.zoek_bron ? 'Gezocht in de titels.' : zoekLaden === true ? 'Tekst van de stukken wordt geladen…'
+      : zoekLaden === 'mislukt' ? 'De tekst van de stukken kon niet worden geladen; gezocht in de titels.' : 'Gezocht in de titels en de tekst van de stukken.';
+    $('#s-inhoud').hidden = !q;
+    if (q) $('#s-inhoud').innerHTML = e(stand) + (D.zoek_inhoud ? ` <a href="${e(D.zoek_inhoud + encodeURIComponent(q))}">Zoek “${e(q)}” in SharePoint →</a>` : '');
     if (!lijst.length) { $('#s-lijst').innerHTML = '<p class="leeg">Geen stukken gevonden. Probeer minder of andere woorden, of zet de filters op Alles.</p>'; $('#s-meer').hidden = true; return; }
     // Groeperen: binnengekomen per dag; wat er bij de start al stond per maand van de vergadering.
     const groepen = [], index = {};
