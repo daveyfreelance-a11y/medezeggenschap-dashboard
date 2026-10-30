@@ -31,6 +31,7 @@ a{color:var(--blauw-diep);text-underline-offset:2px}
 a:hover{color:var(--inkt)}
 :focus-visible{outline:3px solid var(--blauw);outline-offset:2px;border-radius:3px}
 .mz{max-width:1180px;margin:0 auto;padding:0 20px 64px}
+[hidden]{display:none!important}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
 /* ---------- kop: de stelling ---------- */
@@ -102,6 +103,32 @@ a:hover{color:var(--inkt)}
 .docs li span{font:500 12px/1.9 var(--mono);color:var(--grijs);text-transform:uppercase}
 .leeg{padding:36px;text-align:center;color:var(--grijs);border:1px dashed var(--lijn);border-radius:var(--r)}
 
+/* ---------- stukken ---------- */
+.zoekbalk{position:relative;margin:0 0 12px}
+.zoekbalk input{width:100%;font:inherit;font-size:17px;border:2px solid var(--lijn);border-radius:var(--r);padding:13px 14px 13px 44px;background:var(--wit);color:var(--tekst)}
+.zoekbalk input:focus{border-color:var(--blauw);outline:0}
+.zoekbalk svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--grijs)}
+.filters .groep{display:inline-flex;flex-wrap:wrap;gap:6px}
+.stukdag{margin:22px 0 0}
+.stukdag h3{display:flex;justify-content:space-between;gap:12px;margin:0 0 4px;padding:0 0 8px;border-bottom:2px solid var(--inkt);font:700 13px/1.3 var(--mono);text-transform:uppercase;letter-spacing:.04em;color:var(--inkt)}
+.stukdag h3 span{font-weight:500;color:var(--grijs);text-transform:none;letter-spacing:0}
+.stuk{display:grid;grid-template-columns:64px 1fr auto;gap:2px 14px;align-items:start;padding:11px 0;border-bottom:1px solid var(--lijn)}
+.stuk .org{grid-row:span 2;display:flex;align-items:center;justify-content:center;height:34px;border-radius:5px;color:#fff;font:700 12px/1 var(--display);letter-spacing:.01em;text-align:center;padding:0 4px;background:var(--grijs);white-space:nowrap;overflow:hidden}
+.stuk a.titel{font:600 16px/1.35 inherit;font-family:inherit;color:var(--inkt);text-decoration:none;overflow-wrap:anywhere}
+.stuk a.titel:hover{color:var(--blauw-diep);text-decoration:underline}
+.stuk .wat{font:600 11px/1 var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--grijs);border:1px solid var(--lijn);border-radius:4px;padding:5px 6px;white-space:nowrap;justify-self:end}
+.stuk .wat-agenda{color:var(--blauw-diep);border-color:var(--blauw)}
+.stuk .wat-verslag{color:#7A4B00;border-color:#E4C27A}
+.stuk .waar{grid-column:2/-1;font-size:13.5px;color:var(--grijs)}
+.stuk .waar b{color:var(--tekst);font-weight:600}
+.stuk .nieuw{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--live);margin-right:7px;vertical-align:2px}
+.stuk mark{background:#FFF1A8;color:inherit;border-radius:2px;padding:0 1px}
+.slot{color:#7A4B00}
+@media (max-width:720px){
+  .stuk{grid-template-columns:52px 1fr}
+  .stuk .wat{grid-column:2;justify-self:start}
+}
+
 /* ---------- openheid ---------- */
 .tabel{width:100%;border-collapse:collapse;font-size:15px}
 .tabel th{text-align:left;font:700 12px/1.2 var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--grijs);padding:10px 8px;border-bottom:2px solid var(--lijn);white-space:nowrap}
@@ -165,12 +192,31 @@ a:hover{color:var(--inkt)}
   </header>
 
   <nav class="tabs" aria-label="Onderdelen">
+    <a href="#stukken" data-tab="stukken">Stukken</a>
     <a href="#agenda" data-tab="agenda">Agenda</a>
     <a href="#openheid" data-tab="openheid">Openheid</a>
     <a href="#over" data-tab="over">Over dit dashboard</a>
   </nav>
 
-  <section class="paneel" id="p-agenda" aria-labelledby="t-agenda">
+  <section class="paneel" id="p-stukken" hidden aria-labelledby="t-stukken">
+    <h2 class="sr" id="t-stukken">Alle stukken, nieuwst binnengekomen eerst</h2>
+    <div class="zoekbalk">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <label class="sr" for="s-zoek">Zoek in alle stukken</label>
+      <input id="s-zoek" type="search" autocomplete="off" placeholder="Zoek in alle stukken: woorden uit de titel, instelling of vergadering">
+    </div>
+    <div class="filters">
+      <label class="sr" for="s-inst">Instelling</label>
+      <select id="s-inst"><option value="">Alle instellingen</option></select>
+      <span class="groep" role="group" aria-label="Soort stuk" id="s-soort"></span>
+      <span class="groep" role="group" aria-label="Binnengekomen" id="s-periode"></span>
+    </div>
+    <p class="telling" id="s-telling"></p>
+    <div id="s-lijst"></div>
+    <p style="margin-top:16px"><button class="knop" id="s-meer" type="button" hidden>Meer tonen</button></p>
+  </section>
+
+  <section class="paneel" id="p-agenda" hidden aria-labelledby="t-agenda">
     <h2 class="sr" id="t-agenda">Agenda</h2>
     <div class="filters">
       <label class="sr" for="f-inst">Instelling</label>
@@ -187,7 +233,7 @@ a:hover{color:var(--inkt)}
   <section class="paneel" id="p-openheid" hidden aria-labelledby="t-open">
     <h2 class="sr" id="t-open">Openheid per instelling</h2>
     <div class="scroll"><table class="tabel" id="tabel"></table></div>
-    <p class="noot">Openbaar betekent: de robot van ScienceGuide zag het afgelopen jaar zulke documenten vrij online, zonder inloggen. Staat er een raad tussen haakjes, dan geldt het alleen voor die raad. Een grijs blokje betekent dat er niets openbaars is gevonden; dat kan ook betekenen dat het alleen op aanvraag of via een intranet beschikbaar is.</p>
+    <p class="noot">Openbaar betekent: de robot van ScienceGuide zag het afgelopen jaar zulke documenten vrij online, zonder inloggen (uitzondering: Maastricht, met de gedeelde publieke login die de universiteit zelf noemt). Staat er een raad tussen haakjes, dan geldt het alleen voor die raad. Een grijs blokje betekent dat er niets openbaars is gevonden; dat kan ook betekenen dat het alleen op aanvraag of via een intranet beschikbaar is.</p>
   </section>
 
   <section class="paneel over" id="p-over" hidden>
@@ -312,6 +358,80 @@ a:hover{color:var(--inkt)}
       .map(([k,t]) => `<button type="button" class="chip" data-type="${k}" aria-pressed="${filterType===k}">${t}</button>`).join(' ');
   }
 
+  // --- stukken: alles, nieuwst binnengekomen eerst ---
+  const STUKKEN = D.stukken || [];
+  const KLEUR = {EUR:'#0B7A5E',UvA:'#B4002D',Leiden:'#1F2A6B',VU:'#0E6FA8',UM:'#B5520F',RUG:'#7A1F45',TiU:'#5B2C83',
+                 UT:'#3F6212','TU Delft':'#00727A',RU:'#9A3412','TU/e':'#BE123C',WUR:'#166534',UU:'#A16207'};
+  const WAT = {agenda:'Agenda', stuk:'Stuk', bijlage:'Bijlage', verslag:'Verslag', overig:'Overig'};
+  const plat = t => String(t ?? '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+  // Zoektekst per stuk een keer opbouwen: titel, instelling (naam, korte naam, afkorting) en vergadering.
+  STUKKEN.forEach(s => { const i = INST[s.i] || {naam:s.i, id:s.i};
+    s._z = plat([s.t, i.naam, kort(i), s.i, s.m, WAT[s.s]].join(' ')); });
+  let sSoort = '', sPeriode = '', sAantal = 150;
+  let vorigBezoek = null;
+  try { vorigBezoek = localStorage.getItem('mz-vorig-bezoek'); localStorage.setItem('mz-vorig-bezoek', new Date().toISOString()); } catch (_) {}
+
+  const datumNl = (d, metJaar=true) => { const x = new Date(d.length===10 ? d+'T12:00:00' : d);
+    return `${x.getDate()} ${MND[x.getMonth()].slice(0,3)}${metJaar?' '+x.getFullYear():''}`; };
+  const lokaalDag = g => { const x = new Date(g); return new Date(x.getTime()-x.getTimezoneOffset()*6e4).toISOString().slice(0,10); };
+  const markeer = (t, woorden) => {
+    t = String(t ?? ''); const p = plat(t);
+    // Alleen markeren als de tekst zonder accenten even lang blijft (anders kloppen de posities niet).
+    if (!woorden.length || p.length !== t.length) return e(t);
+    const aan = new Array(t.length).fill(false);
+    woorden.forEach(w => { let k = 0; while ((k = p.indexOf(w, k)) > -1) { for (let j = k; j < k + w.length; j++) aan[j] = true; k += w.length; } });
+    let h = '', open = false;
+    for (let j = 0; j < t.length; j++) {
+      if (aan[j] !== open) { h += open ? '</mark>' : '<mark>'; open = aan[j]; }
+      h += e(t[j]);
+    }
+    return h + (open ? '</mark>' : '');
+  };
+  function stukRij(s, woorden){
+    const i = INST[s.i] || {naam:s.i, id:s.i};
+    const nieuw = s.g && vorigBezoek && s.g > vorigBezoek;
+    const waar = [`<b>${e(i.naam)}</b>`, s.m ? e(s.m) : '', s.d ? 'vergadering ' + datumNl(s.d) : '',
+                  s.g ? 'binnen ' + new Date(s.g).toLocaleString('nl-NL',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}) : ''].filter(Boolean).join(' · ');
+    return `<div class="stuk"><span class="org" style="background:${KLEUR[s.i]||'var(--grijs)'}" title="${e(i.naam)}">${e(s.i)}</span>
+      <a class="titel" href="${e(s.u)}">${nieuw?'<span class="nieuw" title="Nieuw sinds je vorige bezoek"></span>':''}${markeer(s.t, woorden)}</a>
+      <span class="wat wat-${e(s.s)}">${e(WAT[s.s]||s.s)}</span>
+      <div class="waar">${waar}${i.login?` · <span class="slot" title="${e(i.login)}">🔒 inloggen met 'burger'</span>`:''}</div></div>`;
+  }
+  function stukken(){
+    const woorden = plat($('#s-zoek').value).split(/\s+/).filter(Boolean);
+    const inst = $('#s-inst').value;
+    const grens = sPeriode ? new Date(Date.now() - Number(sPeriode)*864e5).toISOString() : '';
+    const lijst = STUKKEN.filter(s => (!inst || s.i === inst) && (!sSoort || s.s === sSoort)
+        && (!grens || (s.g && s.g >= grens)) && woorden.every(w => s._z.includes(w)));
+    const nieuwAantal = vorigBezoek ? lijst.filter(s => s.g && s.g > vorigBezoek).length : 0;
+    $('#s-telling').textContent = `${lijst.length.toLocaleString('nl-NL')} stukken` + (woorden.length ? ` met “${$('#s-zoek').value.trim()}”` : '')
+      + (nieuwAantal ? ` · ${nieuwAantal} nieuw sinds je vorige bezoek` : '');
+    if (!lijst.length) { $('#s-lijst').innerHTML = '<p class="leeg">Geen stukken gevonden. Probeer minder of andere woorden, of zet de filters op Alles.</p>'; $('#s-meer').hidden = true; return; }
+    // Groeperen: binnengekomen per dag; wat er bij de start al stond per maand van de vergadering.
+    const groepen = [], index = {};
+    lijst.slice(0, sAantal).forEach(s => {
+      let sleutel, kop, sub;
+      if (s.g) { const d = lokaalDag(s.g); sleutel = 'g'+d; const dt = new Date(d+'T12:00:00');
+        kop = d===vandaagIso ? 'Vandaag' : iso(new Date(new Date(vandaagIso+'T12:00:00').getTime()-864e5))===d ? 'Gisteren' : DAGEN[dt.getDay()];
+        sub = `binnengekomen ${dt.getDate()} ${MND[dt.getMonth()]} ${dt.getFullYear()}`; }
+      else { const m = (s.d||'').slice(0,7); sleutel = 'm'+m; const dt = new Date((m||'1970-01')+'-15T12:00:00');
+        kop = m ? `${MND[dt.getMonth()]} ${dt.getFullYear()}` : 'Zonder datum'; sub = 'al online toen we begonnen te volgen, op vergaderdatum'; }
+      if (!index[sleutel]) { index[sleutel] = {kop, sub, items:[]}; groepen.push(index[sleutel]); }
+      index[sleutel].items.push(s);
+    });
+    $('#s-lijst').innerHTML = groepen.map(g => `<div class="stukdag"><h3>${e(g.kop)} <span>${e(g.sub)} · ${g.items.length}</span></h3>${g.items.map(s => stukRij(s, woorden)).join('')}</div>`).join('');
+    $('#s-meer').hidden = lijst.length <= sAantal;
+    $('#s-meer').textContent = `Meer tonen (nog ${(lijst.length - sAantal).toLocaleString('nl-NL')})`;
+  }
+  function stukFilters(){
+    const met = new Set(STUKKEN.map(s => s.i));
+    $('#s-inst').innerHTML = '<option value="">Alle instellingen</option>' + D.instellingen.filter(i => met.has(i.id))
+      .sort((a,b)=>a.naam.localeCompare(b.naam,'nl')).map(i => `<option value="${e(i.id)}">${e(i.naam)}</option>`).join('');
+    const chips = (lijst, huidig, attr) => lijst.map(([k,t]) => `<button type="button" class="chip" ${attr}="${k}" aria-pressed="${huidig===k}">${t}</button>`).join('');
+    $('#s-soort').innerHTML = chips([['','Alle soorten'],['agenda','Agenda\'s'],['stuk','Stukken'],['bijlage','Bijlagen'],['verslag','Verslagen']], sSoort, 'data-ssoort');
+    $('#s-periode').innerHTML = chips([['','Altijd'],['7','Afgelopen week'],['31','Afgelopen maand']], sPeriode, 'data-speriode');
+  }
+
   // --- instelling (lade) ---
   function lade(id){
     const i = INST[id]; if(!i) return;
@@ -336,12 +456,12 @@ a:hover{color:var(--inkt)}
 
   // --- tabs en routes ---
   function tab(naam){
-    ['agenda','openheid','over'].forEach(t => { $('#p-'+t).hidden = t!==naam; document.querySelector(`[data-tab=${t}]`).setAttribute('aria-current', t===naam?'page':'false'); });
+    ['stukken','agenda','openheid','over'].forEach(t => { $('#p-'+t).hidden = t!==naam; document.querySelector(`[data-tab=${t}]`).setAttribute('aria-current', t===naam?'page':'false'); });
   }
   function route(){
     const h = location.hash.slice(1);
     if(h.startsWith('instelling/')){ const i = D.instellingen.find(x=>x.slug===h.split('/')[1]); tab('agenda'); if(i) lade(i.id); return; }
-    tab(['openheid','over'].includes(h)?h:'agenda');
+    tab(['agenda','openheid','over'].includes(h)?h:'stukken');
   }
   function alles(){ stelling(); meter(); tabel(); filters(); agenda(); }
 
@@ -353,12 +473,17 @@ a:hover{color:var(--inkt)}
     else if('type' in t.dataset){ filterType = t.dataset.type; filters(); agenda(); }
     else if(t.dataset.docs){ const l=document.getElementById('d-'+t.dataset.docs); l.hidden=!l.hidden; t.setAttribute('aria-expanded', !l.hidden); }
     else if(t.id==='meer'){ toonVerleden=!toonVerleden; agenda(); }
+    else if('ssoort' in t.dataset){ sSoort = t.dataset.ssoort; sAantal = 150; stukFilters(); stukken(); }
+    else if('speriode' in t.dataset){ sPeriode = t.dataset.speriode; sAantal = 150; stukFilters(); stukken(); }
+    else if(t.id==='s-meer'){ sAantal += 300; stukken(); }
   });
   document.addEventListener('keydown', ev => { if(ev.key==='Escape') sluit(); });
   $('#f-inst').addEventListener('change', agenda);
   $('#f-zoek').addEventListener('input', agenda);
+  $('#s-inst').addEventListener('change', () => { sAantal = 150; stukken(); });
+  $('#s-zoek').addEventListener('input', () => { sAantal = 150; stukken(); });
   window.addEventListener('hashchange', route);
-  alles(); route();
+  alles(); stukFilters(); stukken(); route();
 
   // Ingebed in WordPress (iframe): externe links in een nieuw tabblad, en de
   // hoogte doorgeven aan de pagina eromheen zodat er geen dubbele scrollbalk is.

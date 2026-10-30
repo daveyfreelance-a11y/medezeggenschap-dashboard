@@ -1,326 +1,326 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//ScienceGuide//Medezeggenschap//NL
-X-WR-CALNAME:Medezeggenschap Universiteit Maastricht
-CALSCALE:GREGORIAN
-BEGIN:VEVENT
-UID:636d19127445c1a3@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20260916T090000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Strategy
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:ad38886d9a96a065@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20260916T120000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Research & Education
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:88473c408eac6b31@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20260916T150000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Operations
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:5043ac8c35681782@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20261007T140000
-DURATION:PT2H
-SUMMARY:UM UR – Universiteitsraad
-LOCATION:PHS1\, C3.015
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:29bd2a8f12663075@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20261104T090000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Strategy
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:80e5ca32cd75a54e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20261104T120000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Research & Education
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:25a88e9ec42b1bbe@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20261104T150000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Operations
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:db0123b8ae3947b1@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20261118T140000
-DURATION:PT2H
-SUMMARY:UM UR – Universiteitsraad
-LOCATION:TAP11 I0.011
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:9752b75d29e7e552@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20261202T090000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Strategy
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:aecf0054bc79796c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20261202T120000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Research & Education
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:18849cb70bcb307f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20261202T150000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Operations
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:e40b444c66f6824a@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20261216T140000
-DURATION:PT2H
-SUMMARY:UM UR – Universiteitsraad
-LOCATION:PHS1\, C3.015
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:ac99936cea847100@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270203T090000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Strategy
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:4aaff6399065719e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270203T120000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Research & Education
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:805b12905dd12502@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270203T150000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Operations
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:b795074f77084dfe@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270224T140000
-DURATION:PT2H
-SUMMARY:UM UR – Universiteitsraad
-LOCATION:UNS 60\, M5.01 Co Greep zaal
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:8734bbb192e371a7@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270310T090000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Strategy
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:60fb3186a1f725d8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270310T120000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Research & Education
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:27b7995adbccf0c6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270310T150000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Operations
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:8ba72660f1fa9ea8@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270324T140000
-DURATION:PT2H
-SUMMARY:UM UR – Universiteitsraad
-LOCATION:UNS 60\, M5.01 Co Greep zaal
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:717f5b7a62324908@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270407T090000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Strategy
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:5c278ca2ffbf7081@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270407T120000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Research & Education
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:ec9a7a388c2eaba4@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270407T150000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Operations
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:5ad1f46ba089425d@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270421T140000
-DURATION:PT2H
-SUMMARY:UM UR – Universiteitsraad
-LOCATION:PHS1\, C3.015
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:956ad6c9671e42cc@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270512T090000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Strategy
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:dcaac6fbbbc1e762@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270512T120000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Research & Education
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:e9f7ca8594ed738e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270512T150000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Operations
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:f4f21cb1a88527e6@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270526T140000
-DURATION:PT2H
-SUMMARY:UM UR – Universiteitsraad
-LOCATION:PHS1\, C3.015
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:714439d74a74d86b@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270609T090000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Strategy
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:29d968e86b756f8e@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270609T120000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Research & Education
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:fedda2be9dd9ff2c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270609T150000
-DURATION:PT2H
-SUMMARY:UM UR – Commissie Operations
-LOCATION:MBB 4-6\, 2.017
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-BEGIN:VEVENT
-UID:d21648a185f54f6c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T031811Z
-DTSTART;TZID=Europe/Amsterdam:20270623T140000
-DURATION:PT2H
-SUMMARY:UM UR – Universiteitsraad
-LOCATION:PHS1\, C3.015
-URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ScienceGuide//Medezeggenschap//NL
+X-WR-CALNAME:Medezeggenschap Universiteit Maastricht
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:636d19127445c1a3@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20260916T090000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Strategy
+LOCATION:MBB 4-6\, 2.017
+URL:https://portal0500.ibabs.eu/document/agenda/6dfa1ea5-af4d-47a2-96e4-b21a46620eb4/c49e5785-ef80-4615-b264-ec57c5fa736e
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:ad38886d9a96a065@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20260916T120000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Research & Education
+LOCATION:MBB 4-6\, 2.017
+URL:https://portal0500.ibabs.eu/document/agenda/33ab643e-a061-45ba-98e3-33a0544dbd35/9b0f417f-dc73-4dba-b838-651f07ebfca8
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:88473c408eac6b31@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20260916T150000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Operations
+LOCATION:MBB 4-6\, 2.017
+URL:https://portal0500.ibabs.eu/document/agenda/8d2ce45e-7645-49da-9308-b64289fcc41d/eb4c3ead-b84f-4dca-a953-c54b1a95835d
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:5043ac8c35681782@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20261007T140000
+DURATION:PT2H
+SUMMARY:UM UR – Universiteitsraad
+LOCATION:PHS1\, C3.015
+URL:https://portal0500.ibabs.eu/document/agenda/297279ae-aa6f-427f-954e-c5ee3408f09d/55c20be5-b462-4bd4-b8df-a4656ec01373
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:29bd2a8f12663075@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20261104T090000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Strategy
+LOCATION:MBB 4-6\, 2.017
+URL:https://portal0500.ibabs.eu/document/downloadagendadocument/c8270b3c-fbd2-4e5b-a385-97c797fe3164/83628a7d-b8ef-4ecc-b821-18731fdf104a
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:80e5ca32cd75a54e@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20261104T120000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Research & Education
+LOCATION:MBB 4-6\, 2.017
+URL:https://portal0500.ibabs.eu/document/agenda/055a235b-271f-40fc-99db-defdde61fc2d/c33d941a-4574-4682-9d13-b814757e8207
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:25a88e9ec42b1bbe@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20261104T150000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Operations
+LOCATION:MBB 4-6\, 2.017
+URL:https://portal0500.ibabs.eu/document/agenda/c60f29ac-785d-4505-ba11-da7eb497b5c0/5bd6d155-51b8-4e22-b630-bb0ee4b4a5c1
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:db0123b8ae3947b1@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20261118T140000
+DURATION:PT2H
+SUMMARY:UM UR – Universiteitsraad
+LOCATION:TAP11 I0.011
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:9752b75d29e7e552@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20261202T090000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Strategy
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:aecf0054bc79796c@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20261202T120000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Research & Education
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:18849cb70bcb307f@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20261202T150000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Operations
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:e40b444c66f6824a@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20261216T140000
+DURATION:PT2H
+SUMMARY:UM UR – Universiteitsraad
+LOCATION:PHS1\, C3.015
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:ac99936cea847100@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270203T090000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Strategy
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:4aaff6399065719e@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270203T120000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Research & Education
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:805b12905dd12502@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270203T150000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Operations
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:b795074f77084dfe@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270224T140000
+DURATION:PT2H
+SUMMARY:UM UR – Universiteitsraad
+LOCATION:UNS 60\, M5.01 Co Greep zaal
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:8734bbb192e371a7@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270310T090000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Strategy
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:60fb3186a1f725d8@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270310T120000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Research & Education
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:27b7995adbccf0c6@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270310T150000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Operations
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:8ba72660f1fa9ea8@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270324T140000
+DURATION:PT2H
+SUMMARY:UM UR – Universiteitsraad
+LOCATION:UNS 60\, M5.01 Co Greep zaal
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:717f5b7a62324908@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270407T090000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Strategy
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:5c278ca2ffbf7081@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270407T120000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Research & Education
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:ec9a7a388c2eaba4@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270407T150000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Operations
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:5ad1f46ba089425d@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270421T140000
+DURATION:PT2H
+SUMMARY:UM UR – Universiteitsraad
+LOCATION:PHS1\, C3.015
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:956ad6c9671e42cc@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270512T090000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Strategy
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:dcaac6fbbbc1e762@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270512T120000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Research & Education
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:e9f7ca8594ed738e@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270512T150000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Operations
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:f4f21cb1a88527e6@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270526T140000
+DURATION:PT2H
+SUMMARY:UM UR – Universiteitsraad
+LOCATION:PHS1\, C3.015
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:714439d74a74d86b@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270609T090000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Strategy
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:29d968e86b756f8e@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270609T120000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Research & Education
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:fedda2be9dd9ff2c@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270609T150000
+DURATION:PT2H
+SUMMARY:UM UR – Commissie Operations
+LOCATION:MBB 4-6\, 2.017
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+BEGIN:VEVENT
+UID:d21648a185f54f6c@medezeggenschap.scienceguide.nl
+DTSTAMP:20261030T131539Z
+DTSTART;TZID=Europe/Amsterdam:20270623T140000
+DURATION:PT2H
+SUMMARY:UM UR – Universiteitsraad
+LOCATION:PHS1\, C3.015
+URL:https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+DESCRIPTION:Bron: https://www.maastrichtuniversity.nl/nl/about-um/organisation/participation-representation/welcome-university-council/doe-mee
+END:VEVENT
+END:VCALENDAR
