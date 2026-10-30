@@ -4,17 +4,8 @@ PRODID:-//ScienceGuide//Medezeggenschap//NL
 X-WR-CALNAME:Medezeggenschap Vrije Universiteit Amsterdam
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:ef75301af636e8c0@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
-DTSTART;TZID=Europe/Amsterdam:20260701T143000
-DURATION:PT2H
-SUMMARY:VU OR – Overlegvergadering OR-CvB (OV 260)
-URL:https://assets-eu-01.kc-usercontent.com:443/ff31ad68-341e-015e-fb52-24df7a00ecea/3faac4d9-18bd-4107-b6ea-803178e41311/0.%2020260701_Agenda%20OR%20OV_260_%20OPENBAAR_%20CONCEPT.docx
-DESCRIPTION:Bron: https://vu.nl/nl/over-de-vu/meer-over/agenda-vergaderingen-or
-END:VEVENT
-BEGIN:VEVENT
 UID:275c18516337cab0@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20260916T123000
 DURATION:PT2H
 SUMMARY:VU OR – OR intern (OR 418)
@@ -23,7 +14,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/over-de-vu/meer-over/agenda-vergaderingen-or
 END:VEVENT
 BEGIN:VEVENT
 UID:cb267e14c8bb0a85@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20260921T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -32,7 +23,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:34d4c24e030cc660@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20260923T143000
 DURATION:PT2H
 SUMMARY:VU OR – Overlegvergadering OR-CvB (OV 261)
@@ -41,7 +32,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/over-de-vu/meer-over/agenda-vergaderingen-or
 END:VEVENT
 BEGIN:VEVENT
 UID:bf9c919e5939bd90@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20261014T123000
 DURATION:PT2H
 SUMMARY:VU OR – OR intern (OR 420)
@@ -50,7 +41,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/over-de-vu/meer-over/agenda-vergaderingen-or
 END:VEVENT
 BEGIN:VEVENT
 UID:d5823200f4514dd0@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20261019T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -59,7 +50,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:c8d7119c8d39b23c@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20261021T143000
 DURATION:PT2H
 SUMMARY:VU OR – Overlegvergadering OR-CvB (OV 262)
@@ -68,7 +59,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/over-de-vu/meer-over/agenda-vergaderingen-or
 END:VEVENT
 BEGIN:VEVENT
 UID:fe3695fc9496cbec@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20261116T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -77,7 +68,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:70a9fc543098ec57@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20270215T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -86,7 +77,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:ff6eae496f1f4714@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20270419T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -95,7 +86,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:df8e8522cecdd1f0@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20270503T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
@@ -104,7 +95,7 @@ DESCRIPTION:Bron: https://vu.nl/nl/student/medezeggenschap/universitaire-student
 END:VEVENT
 BEGIN:VEVENT
 UID:d5f44cf85439b511@medezeggenschap.scienceguide.nl
-DTSTAMP:20261029T031132Z
+DTSTAMP:20261030T031811Z
 DTSTART;TZID=Europe/Amsterdam:20270614T133000
 DURATION:PT2H
 SUMMARY:VU USR – Overleg USR-CvB
