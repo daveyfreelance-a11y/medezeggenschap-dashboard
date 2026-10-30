@@ -124,6 +124,8 @@ a:hover{color:var(--inkt)}
 .stuk .nieuw{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--live);margin-right:7px;vertical-align:2px}
 .stuk mark{background:#FFF1A8;color:inherit;border-radius:2px;padding:0 1px}
 .slot{color:#7A4B00}
+.inhoud{margin:0 0 6px;padding:10px 12px;background:var(--papier);border:1px solid var(--lijn);border-radius:var(--r);font-size:14px;color:var(--grijs)}
+.inhoud a{font-weight:600}
 @media (max-width:720px){
   .stuk{grid-template-columns:52px 1fr}
   .stuk .wat{grid-column:2;justify-self:start}
@@ -212,6 +214,7 @@ a:hover{color:var(--inkt)}
       <span class="groep" role="group" aria-label="Binnengekomen" id="s-periode"></span>
     </div>
     <p class="telling" id="s-telling"></p>
+    <p class="inhoud" id="s-inhoud" hidden></p>
     <div id="s-lijst"></div>
     <p style="margin-top:16px"><button class="knop" id="s-meer" type="button" hidden>Meer tonen</button></p>
   </section>
@@ -406,6 +409,10 @@ a:hover{color:var(--inkt)}
     const nieuwAantal = vorigBezoek ? lijst.filter(s => s.g && s.g > vorigBezoek).length : 0;
     $('#s-telling').textContent = `${lijst.length.toLocaleString('nl-NL')} stukken` + (woorden.length ? ` met “${$('#s-zoek').value.trim()}”` : '')
       + (nieuwAantal ? ` · ${nieuwAantal} nieuw sinds je vorige bezoek` : '');
+    // Dit zoekt alleen in titels; SharePoint doorzoekt ook de tekst van de bewaarde pdf's.
+    const q = $('#s-zoek').value.trim();
+    $('#s-inhoud').hidden = !(q && D.zoek_inhoud);
+    if (q && D.zoek_inhoud) $('#s-inhoud').innerHTML = `Hier wordt gezocht in de titels. <a href="${e(D.zoek_inhoud + encodeURIComponent(q))}">Zoek “${e(q)}” ook in de tekst van de stukken (SharePoint) →</a>`;
     if (!lijst.length) { $('#s-lijst').innerHTML = '<p class="leeg">Geen stukken gevonden. Probeer minder of andere woorden, of zet de filters op Alles.</p>'; $('#s-meer').hidden = true; return; }
     // Groeperen: binnengekomen per dag; wat er bij de start al stond per maand van de vergadering.
     const groepen = [], index = {};
