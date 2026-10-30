@@ -369,7 +369,7 @@ a:hover{color:var(--inkt)}
   const plat = t => String(t ?? '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
   // Zoektekst per stuk een keer opbouwen: titel, instelling (naam, korte naam, afkorting) en vergadering.
   STUKKEN.forEach(s => { const i = INST[s.i] || {naam:s.i, id:s.i};
-    s._z = plat([s.t, i.naam, kort(i), s.i, s.m, WAT[s.s]].join(' ')); });
+    s._z = plat([s.t, i.naam, kort(i), s.i, s.m, WAT[s.s], ...(s.x||[]).map(x => x.m)].join(' ')); });
   let sSoort = '', sPeriode = '', sAantal = 150;
   let vorigBezoek = null;
   try { vorigBezoek = localStorage.getItem('mz-vorig-bezoek'); localStorage.setItem('mz-vorig-bezoek', new Date().toISOString()); } catch (_) {}
@@ -398,7 +398,7 @@ a:hover{color:var(--inkt)}
     return `<div class="stuk"><span class="org" style="background:${KLEUR[s.i]||'var(--grijs)'}" title="${e(i.naam)}">${e(s.i)}</span>
       <a class="titel" href="${e(s.u)}">${nieuw?'<span class="nieuw" title="Nieuw sinds je vorige bezoek"></span>':''}${markeer(s.t, woorden)}</a>
       <span class="wat wat-${e(s.s)}">${e(WAT[s.s]||s.s)}</span>
-      <div class="waar">${waar}${i.login?` · <span class="slot" title="${e(i.login)}">🔒 inloggen met 'burger'</span>`:''}</div></div>`;
+      <div class="waar">${waar}${i.login?` · <span class="slot" title="${e(i.login)}">🔒 inloggen met 'burger'</span>`:''}${s.x?`<br>Ook bij: ${s.x.map(x => `<a href="${e(x.u)}">${e(x.m||'andere vergadering')}${x.d?' ('+datumNl(x.d)+')':''}</a>`).join(', ')}`:''}</div></div>`;
   }
   function stukken(){
     const woorden = plat($('#s-zoek').value).split(/\s+/).filter(Boolean);
