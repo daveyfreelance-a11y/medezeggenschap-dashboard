@@ -1,46 +1,46 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//ScienceGuide//Medezeggenschap//NL
-X-WR-CALNAME:Medezeggenschap Universiteit Leiden
-CALSCALE:GREGORIAN
-BEGIN:VEVENT
-UID:e14c01aed8c02d29@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T131539Z
-DTSTART;TZID=Europe/Amsterdam:20260713T134500
-DURATION:PT2H
-SUMMARY:Leiden UR – Overlegvergadering UR - CvB
-LOCATION:Faculteitskamer Rechten\, Academiegebouw
-URL:https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Document/215ec99c-be97-4d3d-a763-6acaa17ce4ce?documentId=01ee5252-2b30-4758-9609-19742cb116e3&agendaItemId=26fbaeed-a835-4961-b014-591b8e47b6d3
-DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Index/215ec99c-be97-4d3d-a763-6acaa17ce4ce
-END:VEVENT
-BEGIN:VEVENT
-UID:1f8a330bb994e916@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T131539Z
-DTSTART;TZID=Europe/Amsterdam:20260928T090000
-DURATION:PT2H
-SUMMARY:Leiden UR – Commissievergaderingen UR
-LOCATION:Restaurant Faculty Club
-URL:https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Document/9b9d719f-ef2a-4ac8-a49c-86e41e9e9223?documentId=a72b5556-aae1-42ed-89ed-fcc1bd41cd9b&agendaItemId=9212360b-dd66-4f98-b5c7-e9887dfc217f
-DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Index/9b9d719f-ef2a-4ac8-a49c-86e41e9e9223
-END:VEVENT
-BEGIN:VEVENT
-UID:2c8444a7e899a611@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T131539Z
-DTSTART;TZID=Europe/Amsterdam:20261005T134500
-DURATION:PT2H
-SUMMARY:Leiden UR – Universiteitsraad
-LOCATION:Faculteitskamer Rechten\, Academiegebouw
-URL:https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Document/904377e9-acc9-42e2-9b63-4e5d1bf6c581?documentId=ee66efc4-f329-4277-bab3-4badff8dca91&agendaItemId=683a60fd-8fdf-4294-a7a7-f1c01473e11f
-DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Index/904377e9-acc9-42e2-9b63-4e5d1bf6c581
-END:VEVENT
-BEGIN:VEVENT
-UID:ec56b6cda1b18b98@medezeggenschap.scienceguide.nl
-DTSTAMP:20261030T131539Z
-DTSTART;TZID=Europe/Amsterdam:20261026T134500
-DURATION:PT2H
-SUMMARY:Leiden UR – Overlegvergadering UR - CvB
-LOCATION:Restaurant\, Facultyclub
-URL:https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Document/c2cf9871-0b1d-4fa4-a974-7b6469f1c805?documentId=4a9e76c1-27bc-45e9-a2fc-6e600b7f8e2f&agendaItemId=b0d5e1b4-2cb2-4b09-9d6d-021589f74e20
-DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Index/c2cf9871-0b1d-4fa4-a974-7b6469f1c805
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ScienceGuide//Medezeggenschap//NL
+X-WR-CALNAME:Medezeggenschap Universiteit Leiden
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:e14c01aed8c02d29@medezeggenschap.scienceguide.nl
+DTSTAMP:20261031T033608Z
+DTSTART;TZID=Europe/Amsterdam:20260713T134500
+DURATION:PT2H
+SUMMARY:Leiden UR – Overlegvergadering UR - CvB
+LOCATION:Faculteitskamer Rechten\, Academiegebouw
+URL:https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Document/215ec99c-be97-4d3d-a763-6acaa17ce4ce?documentId=01ee5252-2b30-4758-9609-19742cb116e3&agendaItemId=26fbaeed-a835-4961-b014-591b8e47b6d3
+DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Index/215ec99c-be97-4d3d-a763-6acaa17ce4ce
+END:VEVENT
+BEGIN:VEVENT
+UID:1f8a330bb994e916@medezeggenschap.scienceguide.nl
+DTSTAMP:20261031T033608Z
+DTSTART;TZID=Europe/Amsterdam:20260928T090000
+DURATION:PT2H
+SUMMARY:Leiden UR – Commissievergaderingen UR
+LOCATION:Restaurant Faculty Club
+URL:https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Document/9b9d719f-ef2a-4ac8-a49c-86e41e9e9223?documentId=a72b5556-aae1-42ed-89ed-fcc1bd41cd9b&agendaItemId=9212360b-dd66-4f98-b5c7-e9887dfc217f
+DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Index/9b9d719f-ef2a-4ac8-a49c-86e41e9e9223
+END:VEVENT
+BEGIN:VEVENT
+UID:2c8444a7e899a611@medezeggenschap.scienceguide.nl
+DTSTAMP:20261031T033608Z
+DTSTART;TZID=Europe/Amsterdam:20261005T134500
+DURATION:PT2H
+SUMMARY:Leiden UR – Universiteitsraad
+LOCATION:Faculteitskamer Rechten\, Academiegebouw
+URL:https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Document/904377e9-acc9-42e2-9b63-4e5d1bf6c581?documentId=ee66efc4-f329-4277-bab3-4badff8dca91&agendaItemId=683a60fd-8fdf-4294-a7a7-f1c01473e11f
+DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Index/904377e9-acc9-42e2-9b63-4e5d1bf6c581
+END:VEVENT
+BEGIN:VEVENT
+UID:ec56b6cda1b18b98@medezeggenschap.scienceguide.nl
+DTSTAMP:20261031T033608Z
+DTSTART;TZID=Europe/Amsterdam:20261026T134500
+DURATION:PT2H
+SUMMARY:Leiden UR – Overlegvergadering UR - CvB
+LOCATION:Restaurant\, Facultyclub
+URL:https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Document/c2cf9871-0b1d-4fa4-a974-7b6469f1c805?documentId=4a9e76c1-27bc-45e9-a2fc-6e600b7f8e2f&agendaItemId=b0d5e1b4-2cb2-4b09-9d6d-021589f74e20
+DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Index/c2cf9871-0b1d-4fa4-a974-7b6469f1c805
+END:VEVENT
+END:VCALENDAR
