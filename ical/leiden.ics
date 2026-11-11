@@ -4,18 +4,8 @@ PRODID:-//ScienceGuide//Medezeggenschap//NL
 X-WR-CALNAME:Medezeggenschap Universiteit Leiden
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:e14c01aed8c02d29@medezeggenschap.scienceguide.nl
-DTSTAMP:20261110T100541Z
-DTSTART;TZID=Europe/Amsterdam:20260713T134500
-DURATION:PT2H
-SUMMARY:Leiden UR – Overlegvergadering UR - CvB
-LOCATION:Faculteitskamer Rechten\, Academiegebouw
-URL:https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Document/215ec99c-be97-4d3d-a763-6acaa17ce4ce?documentId=01ee5252-2b30-4758-9609-19742cb116e3&agendaItemId=26fbaeed-a835-4961-b014-591b8e47b6d3
-DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/Index/215ec99c-be97-4d3d-a763-6acaa17ce4ce
-END:VEVENT
-BEGIN:VEVENT
 UID:1f8a330bb994e916@medezeggenschap.scienceguide.nl
-DTSTAMP:20261110T100541Z
+DTSTAMP:20261111T094054Z
 DTSTART;TZID=Europe/Amsterdam:20260928T090000
 DURATION:PT2H
 SUMMARY:Leiden UR – Commissievergaderingen UR
@@ -25,7 +15,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:2c8444a7e899a611@medezeggenschap.scienceguide.nl
-DTSTAMP:20261110T100541Z
+DTSTAMP:20261111T094054Z
 DTSTART;TZID=Europe/Amsterdam:20261005T134500
 DURATION:PT2H
 SUMMARY:Leiden UR – Universiteitsraad
@@ -35,7 +25,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:ec56b6cda1b18b98@medezeggenschap.scienceguide.nl
-DTSTAMP:20261110T100541Z
+DTSTAMP:20261111T094054Z
 DTSTART;TZID=Europe/Amsterdam:20261026T134500
 DURATION:PT2H
 SUMMARY:Leiden UR – Overlegvergadering UR - CvB
@@ -45,7 +35,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:8a83c7272dc43cf5@medezeggenschap.scienceguide.nl
-DTSTAMP:20261110T100541Z
+DTSTAMP:20261111T094054Z
 DTSTART;TZID=Europe/Amsterdam:20261116T084500
 DURATION:PT2H
 SUMMARY:Leiden UR – Commissievergaderingen UR
@@ -55,7 +45,7 @@ DESCRIPTION:Bron: https://universiteitleiden.bestuurlijkeinformatie.nl/Agenda/In
 END:VEVENT
 BEGIN:VEVENT
 UID:e8e64fc1a052cc1f@medezeggenschap.scienceguide.nl
-DTSTAMP:20261110T100541Z
+DTSTAMP:20261111T094054Z
 DTSTART;TZID=Europe/Amsterdam:20261123T124500
 DURATION:PT2H
 SUMMARY:Leiden UR – Universiteitsraad
