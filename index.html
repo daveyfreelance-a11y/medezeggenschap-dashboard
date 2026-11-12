@@ -368,9 +368,14 @@ a:hover{color:var(--inkt)}
                  UT:'#3F6212','TU Delft':'#00727A',RU:'#9A3412','TU/e':'#BE123C',WUR:'#166534',UU:'#A16207'};
   const WAT = {agenda:'Agenda', stuk:'Stuk', bijlage:'Bijlage', verslag:'Verslag', overig:'Overig'};
   const plat = t => String(t ?? '').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+  const woordvorm = t => plat(t).replace(/[^a-z0-9]+/g, ' ').trim();
+  // Korte zoekwoorden (Woo, CvB, AI) alleen als heel woord, anders vindt 'woo' ook 'woonruimte'.
+  // Langere woorden ook binnen samenstellingen: 'zelfregie' vindt 'zelfregiemaatregelen'.
+  const treft = (hooiberg, w) => w.length <= 4 ? hooiberg.includes(' ' + w + ' ') : hooiberg.includes(w);
   // Zoektekst per stuk een keer opbouwen: titel, instelling (naam, korte naam, afkorting) en vergadering.
   STUKKEN.forEach(s => { const i = INST[s.i] || {naam:s.i, id:s.i};
-    s._z = plat([s.t, i.naam, kort(i), s.i, s.m, WAT[s.s], ...(s.x||[]).map(x => x.m)].join(' ')); });
+    // Zelfde vorm als de tekstindex: alleen letters en cijfers, gescheiden door spaties.
+    s._z = ' ' + woordvorm([s.t, i.naam, kort(i), s.i, s.m, WAT[s.s], ...(s.x||[]).map(x => x.m)].join(' ')) + ' '; });
   let sSoort = '', sPeriode = '', sAantal = 150, zoekLaden = false;
   let vorigBezoek = null;
   try { vorigBezoek = localStorage.getItem('mz-vorig-bezoek'); localStorage.setItem('mz-vorig-bezoek', new Date().toISOString()); } catch (_) {}
@@ -400,10 +405,11 @@ a:hover{color:var(--inkt)}
       <a class="titel" href="${e(s.u)}">${nieuw?'<span class="nieuw" title="Nieuw sinds je vorige bezoek"></span>':''}${markeer(s.t, woorden)}</a>
       <span class="wat wat-${e(s.s)}">${e(WAT[s.s]||s.s)}</span>
       ${s._tekst ? '<span class="intekst">gevonden in de tekst</span>' : ''}
-      <div class="waar">${waar}${i.login?` · <span class="slot" title="${e(i.login)}">🔒 inloggen met 'burger'</span>`:''}${s.x?`<br>Ook bij: ${s.x.map(x => `<a href="${e(x.u)}">${e(x.m||'andere vergadering')}${x.d?' ('+datumNl(x.d)+')':''}</a>`).join(', ')}`:''}</div></div>`;
+      <div class="waar">${waar}${i.login?` · <span class="slot" title="${e(i.login)}">🔒 iBabs-login · site: <b>MaastrichtUniversity</b> · e-mailadres en wachtwoord: <b>burger</b></span>`:''}${s.x?`<br>Ook bij: ${s.x.map(x => `<a href="${e(x.u)}">${e(x.m||'andere vergadering')}${x.d?' ('+datumNl(x.d)+')':''}</a>`).join(', ')}`:''}</div></div>`;
   }
   function stukken(){
-    const woorden = plat($('#s-zoek').value).split(/\s+/).filter(Boolean);
+    // 'Woo-verzoek' wordt 'woo' + 'verzoek': de tekstindex splitst ook op koppeltekens.
+    const woorden = woordvorm($('#s-zoek').value).split(' ').filter(Boolean);
     const inst = $('#s-inst').value;
     const grens = sPeriode ? new Date(Date.now() - Number(sPeriode)*864e5).toISOString() : '';
     // Zoeken in de tekst: het zoekbestand pas laden als iemand iets intypt.
@@ -417,12 +423,15 @@ a:hover{color:var(--inkt)}
     const Z = window.MZ_ZOEK;
     const tekstVan = s => Z ? [s.u, ...(s.x||[]).map(x => x.u)].map(u => Z[u] || '').join(' ') : '';
     const lijst = STUKKEN.filter(s => {
-      if ((inst && s.i !== inst) || (sSoort && s.s !== sSoort) || (grens && !(s.g && s.g >= grens))) return false;
+      // 'Bijlage' herkennen we alleen aan de titel (bijlage/annex/appendix); geen hard onderscheid,
+      // dus het filter Stukken toont beide.
+      const soortOk = !sSoort || s.s === sSoort || (sSoort === 'stuk' && s.s === 'bijlage');
+      if ((inst && s.i !== inst) || !soortOk || (grens && !(s.g && s.g >= grens))) return false;
       s._tekst = false;
-      if (woorden.every(w => s._z.includes(w))) return true;
+      if (woorden.every(w => treft(s._z, w))) return true;
       if (!Z) return false;
-      const t = s._z + ' ' + tekstVan(s);
-      return (s._tekst = woorden.every(w => t.includes(w)));
+      const t = s._z + tekstVan(s) + ' ';
+      return (s._tekst = woorden.every(w => treft(t, w)));
     });
     const viaTekst = lijst.filter(s => s._tekst).length;
     const nieuwAantal = vorigBezoek ? lijst.filter(s => s.g && s.g > vorigBezoek).length : 0;
@@ -456,7 +465,7 @@ a:hover{color:var(--inkt)}
     $('#s-inst').innerHTML = '<option value="">Alle instellingen</option>' + D.instellingen.filter(i => met.has(i.id))
       .sort((a,b)=>a.naam.localeCompare(b.naam,'nl')).map(i => `<option value="${e(i.id)}">${e(i.naam)}</option>`).join('');
     const chips = (lijst, huidig, attr) => lijst.map(([k,t]) => `<button type="button" class="chip" ${attr}="${k}" aria-pressed="${huidig===k}">${t}</button>`).join('');
-    $('#s-soort').innerHTML = chips([['','Alle soorten'],['agenda','Agenda\'s'],['stuk','Stukken'],['bijlage','Bijlagen'],['verslag','Verslagen']], sSoort, 'data-ssoort');
+    $('#s-soort').innerHTML = chips([['','Alle soorten'],['agenda','Agenda\'s'],['stuk','Stukken en bijlagen'],['verslag','Verslagen']], sSoort, 'data-ssoort');
     $('#s-periode').innerHTML = chips([['','Altijd'],['7','Afgelopen week'],['31','Afgelopen maand']], sPeriode, 'data-speriode');
   }
 
