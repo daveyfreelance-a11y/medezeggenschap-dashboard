@@ -124,6 +124,20 @@ a:hover{color:var(--inkt)}
 .stuk .nieuw{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--live);margin-right:7px;vertical-align:2px}
 .stuk mark{background:#FFF1A8;color:inherit;border-radius:2px;padding:0 1px}
 .slot{color:#7A4B00}
+.stuk .fragment{grid-column:2/-1;font:15px/1.55 Georgia,"Times New Roman",serif;color:#33404A;margin-top:4px}
+.stuk .fragment:empty{display:none}
+.stuk.met-kies{grid-template-columns:22px 64px 1fr auto}
+.stuk.met-kies .org{grid-column:2}
+.stuk.met-kies .waar,.stuk.met-kies .fragment,.stuk.met-kies .intekst{grid-column:3/-1}
+.stuk .kies,.stuk .kies-niet{grid-row:span 2;width:18px;height:18px;margin:8px 0 0;accent-color:var(--inkt);cursor:pointer}
+.kiesdag{all:unset;cursor:pointer;color:var(--blauw-diep);text-decoration:underline;text-underline-offset:2px}
+.bundel{position:sticky;bottom:0;z-index:20;display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-top:16px;padding:12px 16px;background:var(--wit);border:1px solid var(--lijn);border-radius:var(--r);box-shadow:0 -4px 16px rgba(14,59,79,.12)}
+.bundel b{color:var(--inkt)}
+#bundel-stand{color:var(--grijs);font-size:14px}
+@media (max-width:720px){
+  .stuk.met-kies{grid-template-columns:22px 52px 1fr}
+  .stuk.met-kies .wat{grid-column:3}
+}
 .inhoud{margin:0 0 6px;padding:10px 12px;background:var(--papier);border:1px solid var(--lijn);border-radius:var(--r);font-size:14px;color:var(--grijs)}
 .inhoud a{font-weight:600}
 .stuk .intekst{grid-column:2/-1;justify-self:start;font:600 11.5px/1 inherit;font-family:inherit;color:#7A4B00;background:#FFF6D6;border-radius:4px;padding:4px 7px;margin-top:2px}
@@ -218,6 +232,12 @@ a:hover{color:var(--inkt)}
     <p class="inhoud" id="s-inhoud" hidden></p>
     <div id="s-lijst"></div>
     <p style="margin-top:16px"><button class="knop" id="s-meer" type="button" hidden>Meer tonen</button></p>
+    <div class="bundel" id="bundel" hidden role="region" aria-label="Pdf-bundel">
+      <b id="bundel-aantal"></b>
+      <button class="knop hoofd" id="bundel-maak" type="button">Maak één pdf</button>
+      <button class="knop" id="bundel-wis" type="button">Wissen</button>
+      <span id="bundel-stand" aria-live="polite"></span>
+    </div>
   </section>
 
   <section class="paneel" id="p-agenda" hidden aria-labelledby="t-agenda">
@@ -364,6 +384,112 @@ a:hover{color:var(--inkt)}
 
   // --- stukken: alles, nieuwst binnengekomen eerst ---
   const STUKKEN = D.stukken || [];
+  // In de besloten WordPress-versie zet de snippet MZ_WP: zoekindex en teksten komen dan van scienceguide.nl.
+  const WP = window.MZ_WP || null;
+  if (WP && WP.zoek) D.zoek_bron = WP.zoek;
+
+  // --- tekstfragmenten onder zoekresultaten (alleen als er teksten zijn) ---
+  const TEKST = new Map();
+  const haalTekst = k => {
+    if (!TEKST.has(k)) TEKST.set(k, fetch(WP.tekst + k, {credentials: 'same-origin'}).then(r => r.ok ? r.text() : '').catch(() => ''));
+    return TEKST.get(k);
+  };
+  // Posities van de zoekwoorden; korte woorden alleen als heel woord (zoals bij het zoeken).
+  const vindplaatsen = (laag, woorden) => {
+    const uit = [];
+    woorden.forEach(w => {
+      let k = 0;
+      while ((k = laag.indexOf(w, k)) > -1) {
+        const voor = k === 0 || !/[a-z0-9]/.test(laag[k-1]), na = !/[a-z0-9]/.test(laag[k + w.length] || ' ');
+        if (w.length > 4 || (voor && na)) uit.push([k, k + w.length]);
+        k += w.length;
+      }
+    });
+    return uit.sort((a, b) => a[0] - b[0]);
+  };
+  function fragment(tekst, woorden){
+    const t = tekst.normalize('NFD').replace(/[̀-ͯ]/g, ''), laag = t.toLowerCase();
+    const plekken = vindplaatsen(laag, woorden);
+    if (!plekken.length) return '';
+    // Het stuk tekst waar de meeste zoekwoorden dicht bij elkaar staan.
+    let beste = plekken[0][0], score = 0;
+    plekken.forEach(([a]) => { const n = new Set(plekken.filter(([b]) => b >= a - 120 && b <= a + 120).map(([b, c]) => laag.slice(b, c))).size;
+      if (n > score) { score = n; beste = a; } });
+    let van = Math.max(0, beste - 110), tot = Math.min(t.length, beste + 170);
+    if (van > 0) van = t.indexOf(' ', van) + 1 || van;
+    if (tot < t.length) tot = t.lastIndexOf(' ', tot) > van ? t.lastIndexOf(' ', tot) : tot;
+    let h = '', p = van;
+    plekken.filter(([a, b]) => a >= van && b <= tot).forEach(([a, b]) => { if (a < p) return;
+      h += e(t.slice(p, a)) + '<mark>' + e(t.slice(a, b)) + '</mark>'; p = b; });
+    h += e(t.slice(p, tot));
+    return (van > 0 ? '… ' : '') + h + (tot < t.length ? ' …' : '');
+  }
+  // --- pdf-bundel: stukken aanvinken en samenvoegen tot één bestand ---
+  const GEKOZEN = new Map();               // k -> stuk, in volgorde van aanvinken
+  const PER_K = new Map(STUKKEN.map(s => [s.k, s]));
+  function bundelbalk(){
+    const b = $('#bundel'); if (!b) return;
+    b.hidden = !GEKOZEN.size;
+    $('#bundel-aantal').textContent = `${GEKOZEN.size} stuk${GEKOZEN.size === 1 ? '' : 'ken'} gekozen`;
+  }
+  function kies(k, aan){
+    const s = PER_K.get(k); if (!s || !s.p) return;
+    aan ? GEKOZEN.set(k, s) : GEKOZEN.delete(k);
+    document.querySelectorAll(`.kies[data-k="${k}"]`).forEach(c => c.checked = aan);
+    bundelbalk();
+  }
+  const laadScript = src => new Promise((ok, mis) => { const sc = document.createElement('script'); sc.src = src; sc.onload = ok; sc.onerror = mis; document.head.appendChild(sc); });
+  // pdf-lib tekent met Helvetica (WinAnsi): tekens daarbuiten vervangen.
+  const ansi = t => String(t ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[‘’]/g, "'").replace(/[“”]/g, '"')
+    .replace(/[–—]/g, '-').replace(/[^\x20-\x7E]/g, '');
+  async function maakBundel(){
+    const knop = $('#bundel-maak'), stand = $('#bundel-stand');
+    knop.disabled = true;
+    try {
+      if (!window.PDFLib) { stand.textContent = 'Voorbereiden…'; await laadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js'); }
+      const {PDFDocument, StandardFonts, rgb} = window.PDFLib;
+      const bundel = await PDFDocument.create();
+      const voorblad = bundel.addPage([595, 842]);
+      const gelukt = [], mislukt = [];
+      let n = 0;
+      for (const [k, s] of GEKOZEN) {
+        stand.textContent = `Stuk ${++n} van ${GEKOZEN.size} ophalen…`;
+        try {
+          const r = await fetch(WP.pdf + k, {credentials: 'same-origin'});
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          const doc = await PDFDocument.load(await r.arrayBuffer(), {ignoreEncryption: true});
+          (await bundel.copyPages(doc, doc.getPageIndices())).forEach(p => bundel.addPage(p));
+          gelukt.push(s);
+        } catch (_) { mislukt.push(s); }
+      }
+      if (!gelukt.length) { stand.textContent = 'Geen van de gekozen stukken kon worden opgehaald.'; return; }
+      // Voorblad met inhoud: welk stuk, van wie, bij welke vergadering.
+      const f = await bundel.embedFont(StandardFonts.Helvetica), fv = await bundel.embedFont(StandardFonts.HelveticaBold);
+      let y = 790;
+      voorblad.drawText('Bundel medezeggenschap - ScienceGuide', {x: 50, y, size: 18, font: fv, color: rgb(.055, .23, .31)}); y -= 22;
+      voorblad.drawText(ansi(`Gemaakt ${new Date().toLocaleDateString('nl-NL')} · ${gelukt.length} stukken`), {x: 50, y, size: 10, font: f}); y -= 28;
+      for (const s of gelukt) {
+        if (y < 60) break;
+        voorblad.drawText(ansi(s.t).slice(0, 95), {x: 50, y, size: 10, font: fv}); y -= 13;
+        voorblad.drawText(ansi([(INST[s.i]||{}).naam || s.i, s.m, s.d && datumNl(s.d)].filter(Boolean).join(' - ')).slice(0, 110), {x: 50, y, size: 8.5, font: f, color: rgb(.37, .42, .46)}); y -= 18;
+      }
+      const blob = new Blob([await bundel.save()], {type: 'application/pdf'});
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+      a.download = `bundel-medezeggenschap-${vandaagIso}.pdf`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+      stand.textContent = mislukt.length ? `Klaar. Niet gelukt (${mislukt.length}): ${mislukt.map(s => s.t).join('; ')}` : 'Klaar: de bundel is gedownload.';
+    } catch (err) {
+      stand.textContent = 'Er ging iets mis bij het maken van de bundel: ' + err.message;
+    } finally { knop.disabled = false; }
+  }
+
+  let fragmentRonde = 0;
+  function vulFragmenten(woorden){
+    if (!WP || !woorden.length) return;
+    const ronde = ++fragmentRonde;
+    [...document.querySelectorAll('#s-lijst .fragment[data-k]')].slice(0, 60).forEach(el => {
+      haalTekst(el.dataset.k).then(t => { if (ronde === fragmentRonde && t) el.innerHTML = fragment(t, woorden); });
+    });
+  }
   const KLEUR = {EUR:'#0B7A5E',UvA:'#B4002D',Leiden:'#1F2A6B',VU:'#0E6FA8',UM:'#B5520F',RUG:'#7A1F45',TiU:'#5B2C83',
                  UT:'#3F6212','TU Delft':'#00727A',RU:'#9A3412','TU/e':'#BE123C',WUR:'#166534',UU:'#A16207'};
   const WAT = {agenda:'Agenda', stuk:'Stuk', bijlage:'Bijlage', verslag:'Verslag', overig:'Overig'};
@@ -401,10 +527,13 @@ a:hover{color:var(--inkt)}
     const nieuw = s.g && vorigBezoek && s.g > vorigBezoek;
     const waar = [`<b>${e(i.naam)}</b>`, s.m ? e(s.m) : '', s.d ? 'vergadering ' + datumNl(s.d) : '',
                   s.g ? 'binnen ' + new Date(s.g).toLocaleString('nl-NL',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}) : ''].filter(Boolean).join(' · ');
-    return `<div class="stuk"><span class="org" style="background:${KLEUR[s.i]||'var(--grijs)'}" title="${e(i.naam)}">${e(s.i)}</span>
+    const kies = WP && WP.pdf ? (s.p ? `<input type="checkbox" class="kies" data-k="${e(s.k)}" ${GEKOZEN.has(s.k)?'checked':''} aria-label="Kies voor pdf-bundel: ${e(s.t)}" title="Kies voor pdf-bundel">`
+      : '<span class="kies-niet" title="Geen kopie beschikbaar voor de pdf-bundel"></span>') : '';
+    return `<div class="stuk${WP && WP.pdf ? ' met-kies' : ''}">${kies}<span class="org" style="background:${KLEUR[s.i]||'var(--grijs)'}" title="${e(i.naam)}">${e(s.i)}</span>
       <a class="titel" href="${e(s.u)}">${nieuw?'<span class="nieuw" title="Nieuw sinds je vorige bezoek"></span>':''}${markeer(s.t, woorden)}</a>
       <span class="wat wat-${e(s.s)}">${e(WAT[s.s]||s.s)}</span>
       ${s._tekst ? '<span class="intekst">gevonden in de tekst</span>' : ''}
+      ${WP && s.h && woorden.length ? `<div class="fragment" data-k="${e(s.k)}"></div>` : ''}
       <div class="waar">${waar}${i.login?` · <span class="slot" title="${e(i.login)}">🔒 iBabs-login · site: <b>MaastrichtUniversity</b> · e-mailadres en wachtwoord: <b>burger</b></span>`:''}${s.x?`<br>Ook bij: ${s.x.map(x => `<a href="${e(x.u)}">${e(x.m||'andere vergadering')}${x.d?' ('+datumNl(x.d)+')':''}</a>`).join(', ')}`:''}</div></div>`;
   }
   function stukken(){
@@ -456,7 +585,12 @@ a:hover{color:var(--inkt)}
       if (!index[sleutel]) { index[sleutel] = {kop, sub, items:[]}; groepen.push(index[sleutel]); }
       index[sleutel].items.push(s);
     });
-    $('#s-lijst').innerHTML = groepen.map(g => `<div class="stukdag"><h3>${e(g.kop)} <span>${e(g.sub)} · ${g.items.length}</span></h3>${g.items.map(s => stukRij(s, woorden)).join('')}</div>`).join('');
+    $('#s-lijst').innerHTML = groepen.map((g, n) => {
+      const kiesbaar = g.items.filter(s => s.p).map(s => s.k);
+      const knop = WP && WP.pdf && kiesbaar.length > 1 ? ` · <button type="button" class="kiesdag" data-groep="${n}">alle ${kiesbaar.length} kiezen</button>` : '';
+      return `<div class="stukdag" data-groep="${n}"><h3>${e(g.kop)} <span>${e(g.sub)} · ${g.items.length}${knop}</span></h3>${g.items.map(s => stukRij(s, woorden)).join('')}</div>`;
+    }).join('');
+    vulFragmenten(woorden);
     $('#s-meer').hidden = lijst.length <= sAantal;
     $('#s-meer').textContent = `Meer tonen (nog ${(lijst.length - sAantal).toLocaleString('nl-NL')})`;
   }
@@ -513,7 +647,12 @@ a:hover{color:var(--inkt)}
     else if('ssoort' in t.dataset){ sSoort = t.dataset.ssoort; sAantal = 150; stukFilters(); stukken(); }
     else if('speriode' in t.dataset){ sPeriode = t.dataset.speriode; sAantal = 150; stukFilters(); stukken(); }
     else if(t.id==='s-meer'){ sAantal += 300; stukken(); }
+    else if(t.classList.contains('kiesdag')){ const rijen = [...t.closest('.stukdag').querySelectorAll('.kies')];
+      const aan = rijen.some(c => !c.checked); rijen.forEach(c => kies(c.dataset.k, aan)); }
+    else if(t.id==='bundel-maak') maakBundel();
+    else if(t.id==='bundel-wis'){ [...GEKOZEN.keys()].forEach(k => kies(k, false)); $('#bundel-stand').textContent = ''; }
   });
+  document.addEventListener('change', ev => { if (ev.target.classList.contains('kies')) kies(ev.target.dataset.k, ev.target.checked); });
   document.addEventListener('keydown', ev => { if(ev.key==='Escape') sluit(); });
   $('#f-inst').addEventListener('change', agenda);
   $('#f-zoek').addEventListener('input', agenda);
