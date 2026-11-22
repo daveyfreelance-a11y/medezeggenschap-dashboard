@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ScienceGuide//Medezeggenschap//NL
+X-WR-CALNAME:Medezeggenschap Design Academy Eindhoven
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1e13d80d865673e0@medezeggenschap.scienceguide.nl
+DTSTAMP:20261122T101117Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:Design Academy Eindhoven IPC – Vergadering IPC
+URL:https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+DESCRIPTION:Bron: https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+END:VEVENT
+BEGIN:VEVENT
+UID:940509a660963df2@medezeggenschap.scienceguide.nl
+DTSTAMP:20261122T101117Z
+DTSTART;VALUE=DATE:20260915
+SUMMARY:Design Academy Eindhoven IPC – IPC met het College van Bestuur
+URL:https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+DESCRIPTION:Bron: https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+END:VEVENT
+BEGIN:VEVENT
+UID:bec0de9b982b9cd8@medezeggenschap.scienceguide.nl
+DTSTAMP:20261122T101117Z
+DTSTART;VALUE=DATE:20260922
+SUMMARY:Design Academy Eindhoven IPC – Vergadering IPC
+URL:https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+DESCRIPTION:Bron: https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+END:VEVENT
+BEGIN:VEVENT
+UID:bfb024d2ce84da3a@medezeggenschap.scienceguide.nl
+DTSTAMP:20261122T101117Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Design Academy Eindhoven IPC – Vergadering IPC
+URL:https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+DESCRIPTION:Bron: https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+END:VEVENT
+BEGIN:VEVENT
+UID:80292e3b8b2a02f1@medezeggenschap.scienceguide.nl
+DTSTAMP:20261122T101117Z
+DTSTART;VALUE=DATE:20261027
+SUMMARY:Design Academy Eindhoven IPC – Vergadering IPC
+URL:https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+DESCRIPTION:Bron: https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+END:VEVENT
+BEGIN:VEVENT
+UID:d2b82a5245521fd3@medezeggenschap.scienceguide.nl
+DTSTAMP:20261122T101117Z
+DTSTART;VALUE=DATE:20261110
+SUMMARY:Design Academy Eindhoven IPC – IPC met het College van Bestuur
+URL:https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+DESCRIPTION:Bron: https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+END:VEVENT
+BEGIN:VEVENT
+UID:36d5d6717d7f6b99@medezeggenschap.scienceguide.nl
+DTSTAMP:20261122T101117Z
+DTSTART;VALUE=DATE:20261124
+SUMMARY:Design Academy Eindhoven IPC – Vergadering IPC
+URL:https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+DESCRIPTION:Bron: https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+END:VEVENT
+BEGIN:VEVENT
+UID:0eb548b2da57a158@medezeggenschap.scienceguide.nl
+DTSTAMP:20261122T101117Z
+DTSTART;VALUE=DATE:20261208
+SUMMARY:Design Academy Eindhoven IPC – Vergadering IPC
+URL:https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+DESCRIPTION:Bron: https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+END:VEVENT
+BEGIN:VEVENT
+UID:4539be16884c486f@medezeggenschap.scienceguide.nl
+DTSTAMP:20261122T101117Z
+DTSTART;VALUE=DATE:20261215
+SUMMARY:Design Academy Eindhoven IPC – IPC met het College van Bestuur
+URL:https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+DESCRIPTION:Bron: https://www.designacademy.nl/page/9465/institutional-participation-council-ipc
+END:VEVENT
+END:VCALENDAR

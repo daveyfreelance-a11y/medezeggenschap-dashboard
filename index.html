@@ -318,7 +318,7 @@ a:hover{color:var(--inkt)}
     const data = lijst.filter(i => i.data).length, deels = lijst.filter(i => (i.agenda.length||i.stukken.length) && !(i.agenda.length&&i.stukken.length)).length;
     const niets = lijst.length - data;
     if (!data) { $('#cijfers').innerHTML = `Van geen enkele van de <b>${lijst.length}</b> ${meervoud} vonden we vergaderdata, agenda's of stukken online.`; return; }
-    $('#cijfers').innerHTML = `Van <b>${data}</b> ${meervoud} kennen we de vergaderdata. `
+    $('#cijfers').innerHTML = `Van <b>${data}</b> ${data === 1 ? meervoud.replace('universiteiten','universiteit').replace('hogescholen','hogeschool') : meervoud} kennen we de vergaderdata. `
       + (beide ? `<b>${beide}</b> daarvan publiceren ook agenda's én stukken` : "Geen ervan publiceert agenda's én stukken")
       + (deels ? `, <b>${deels}</b> alleen agenda's of alleen stukken` : '')
       + `. Bij <b>${niets}</b> vonden we niets openbaars.`;
@@ -352,7 +352,7 @@ a:hover{color:var(--inkt)}
     const i = INST[v.inst]; const docs = v.docs||[];
     const andere = docs.filter(d => d.u !== v.agenda);
     return `<div class="rij"><div class="tijd ${v.tijd?'':'onb'}">${v.tijd||'tijd ?'}</div><div>
-      <h4><button type="button" data-inst="${e(v.inst)}">${e(kort(i))}</button> · ${e(v.titel.replace(/^\S+ \S+ – /,''))}</h4>
+      <h4><button type="button" data-inst="${e(v.inst)}">${e(kort(i))}</button> · ${e(v.titel.replace(/^[^–]*? – /,''))}</h4>
       <div class="meta"><span class="label">${e(SOORT[v.type]||v.type)}</span>${e(v.raad)}${v.locatie?' · '+e(v.locatie):''}</div>
       <div class="acties">${v.agenda?`<a class="knop hoofd" href="${e(v.agenda)}">Agenda</a>`:''}${andere.length?`<button class="knop" type="button" data-docs="${e(v.id)}" aria-expanded="false">${andere.length} stuk${andere.length>1?'ken':''}</button>`:''}<a class="knop" href="${e(v.bron)}">Bron</a>${streamKnop(v)}</div>
       ${andere.length?`<ul class="docs" id="d-${e(v.id)}" hidden>${andere.map(d=>`<li><span>${e(d.s)}</span><a href="${e(d.u)}">${e(d.t)}</a></li>`).join('')}</ul>`:''}
@@ -608,7 +608,7 @@ a:hover{color:var(--inkt)}
     const i = INST[id]; if(!i) return;
     const eigen = D.vergaderingen.filter(v => v.inst===id);
     const komend = eigen.filter(v=>v.datum>=vandaagIso).slice(0,12), recent = eigen.filter(v=>v.datum<vandaagIso).slice(-6).reverse();
-    const mini = v => `<div class="mini"><time datetime="${v.datum}">${v.datum.split('-').reverse().join('-')}${v.tijd?' '+v.tijd:''}</time><div>${e(v.titel.replace(/^\S+ \S+ – /,''))} <span style="color:var(--grijs)">(${e(SOORT[v.type]||v.type)})</span>${v.agenda?` · <a href="${e(v.agenda)}">agenda</a>`:''} · <a href="${e(v.bron)}">bron</a></div></div>`;
+    const mini = v => `<div class="mini"><time datetime="${v.datum}">${v.datum.split('-').reverse().join('-')}${v.tijd?' '+v.tijd:''}</time><div>${e(v.titel.replace(/^[^–]*? – /,''))} <span style="color:var(--grijs)">(${e(SOORT[v.type]||v.type)})</span>${v.agenda?` · <a href="${e(v.agenda)}">agenda</a>`:''} · <a href="${e(v.bron)}">bron</a></div></div>`;
     const regel = (k, t) => `<p class="cel"><span class="${stand(i[k],i)}"></span>${t}${i[k].length&&stand(i[k],i)==='half'?` <small>(alleen ${e(i[k].join(', '))})</small>`:''}</p>`;
     const contact = Object.entries(i.contact);
     $('#lade-inhoud').innerHTML = `<button class="knop sluit" type="button" data-sluit>Sluiten</button>
